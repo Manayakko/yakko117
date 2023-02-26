@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>你看他身上插满的flag像不像个唱戏的老将军 | Manayakko - 微笑才是王道</title><meta name="description" content="年终跟风写一份18年的年终总结，=v=虽然已经过去这么久了，但还是象征性的记录一下自己的18年"><meta name="keywords" content="瞎扯"><meta name="author" content="Manayakko"><meta name="copyright" content="Manayakko"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/yakko117/img/favicon.png"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><meta name="twitter:card" content="summary"><meta name="twitter:title" content="你看他身上插满的flag像不像个唱戏的老将军"><meta name="twitter:description" content="年终跟风写一份18年的年终总结，=v=虽然已经过去这么久了，但还是象征性的记录一下自己的18年"><meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5ldenxj31hc0u0gqw.jpg"><meta property="og:type" content="article"><meta property="og:title" content="你看他身上插满的flag像不像个唱戏的老将军"><meta property="og:url" content="https://manayakko.github.io/yakko117/2019/02/04/%E4%BD%A0%E7%9C%8B%E4%BB%96%E8%BA%AB%E4%B8%8A%E6%8F%92%E6%BB%A1%E7%9A%84flag%E5%83%8F%E4%B8%8D%E5%83%8F%E4%B8%AA%E5%94%B1%E6%88%8F%E7%9A%84%E8%80%81%E5%B0%86%E5%86%9B/"><meta property="og:site_name" content="Manayakko - 微笑才是王道"><meta property="og:description" content="年终跟风写一份18年的年终总结，=v=虽然已经过去这么久了，但还是象征性的记录一下自己的18年"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5ldenxj31hc0u0gqw.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
+
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/yakko117/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://manayakko.github.io/yakko117/2019/02/04/%E4%BD%A0%E7%9C%8B%E4%BB%96%E8%BA%AB%E4%B8%8A%E6%8F%92%E6%BB%A1%E7%9A%84flag%E5%83%8F%E4%B8%8D%E5%83%8F%E4%B8%AA%E5%94%B1%E6%88%8F%E7%9A%84%E8%80%81%E5%B0%86%E5%86%9B/"><link rel="prev" title="浅谈PHP序列化和反序列化" href="https://manayakko.github.io/yakko117/2019/03/03/%E6%B5%85%E8%B0%88PHP%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/"><link rel="next" title="PHP code audit" href="https://manayakko.github.io/yakko117/2019/01/22/PHP%E5%BC%B1%E7%B1%BB%E5%9E%8B%E6%80%BB%E7%BB%93/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/yakko117/',
+  algolia: undefined,
+  localSearch: {"path":"./yakko117/search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: {"languages":{"author":"作者: Manayakko","link":"链接: https://manayakko.github.io/yakko117/2019/02/04/%E4%BD%A0%E7%9C%8B%E4%BB%96%E8%BA%AB%E4%B8%8A%E6%8F%92%E6%BB%A1%E7%9A%84flag%E5%83%8F%E4%B8%8D%E5%83%8F%E4%B8%AA%E5%94%B1%E6%88%8F%E7%9A%84%E8%80%81%E5%B0%86%E5%86%9B/","source":"来源: Manayakko - 微笑才是王道","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  isHome: false,
+  isPost: true
+  
+}</script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/yakko117/atom.xml" title="Manayakko - 微笑才是王道" type="application/atom+xml">
+</head><body><header> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/yakko117/">Manayakko - 微笑才是王道</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/yakko117/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/yakko117/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/yakko117/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/yakko117/about/"><i class="fa-fw fa fa-simplybuilt"></i><span> 关于本人</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div></header><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/yakko117/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/yakko117/archives/"><div class="headline">文章</div><div class="length_num">60</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/yakko117/tags/"><div class="headline">标签</div><div class="length_num">10</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/yakko117/categories/"><div class="headline">分类</div><div class="length_num">3</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/yakko117/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/yakko117/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/yakko117/link/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/yakko117/about/"><i class="fa-fw fa fa-simplybuilt"></i><span> 关于本人</span></a></div></div></div><div id="mobile-sidebar-toc"><div class="toc_mobile_headline">目录</div><div class="sidebar-toc__content"><ol class="toc_mobile_items"><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#18年的狗砸"><span class="toc_mobile_items-number">1.</span> <span class="toc_mobile_items-text">18年的狗砸</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#flag最多的一年"><span class="toc_mobile_items-number">1.1.</span> <span class="toc_mobile_items-text">flag最多的一年</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#19年的flag"><span class="toc_mobile_items-number">1.2.</span> <span class="toc_mobile_items-text">19年的flag</span></a></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true">     </i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#18年的狗砸"><span class="toc-number">1.</span> <span class="toc-text">18年的狗砸</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#flag最多的一年"><span class="toc-number">1.1.</span> <span class="toc-text">flag最多的一年</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#19年的flag"><span class="toc-number">1.2.</span> <span class="toc-text">19年的flag</span></a></li></ol></li></ol></div></div></div><main id="content-outer"><div id="top-container" style="background-image: url(https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5ldenxj31hc0u0gqw.jpg)"><div id="post-info"><div id="post-title"><div class="posttitle">你看他身上插满的flag像不像个唱戏的老将军</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 发表于 2019-02-04<span class="post-meta__separator">|</span><i class="fa fa-history fa-fw" aria-hidden="true"></i> 更新于 2019-02-04</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon fa-fw" aria-hidden="true"></i><a class="post-meta__categories" href="/yakko117/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span><div class="post-meta-wordcount"><div class="post-meta-pv-cv"></div></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><h1 id="18年的狗砸"><a href="#18年的狗砸" class="headerlink" title="18年的狗砸"></a>18年的狗砸</h1><p>打算转网安还是暑假的时候，忙碌的大一时光眨眼就过去，自己处于一种迷茫且不知道如何前进的状态，在无数个十字路口前举步不前时，感谢我姐，陪我聊了许多，也让我有了一个新的目标和方向，让我从咸鱼王变成了另一个方向的咸鱼&gt;w&lt;；这一年我很幸运遇到了很多很多很多很多帮助过我的人，无论是曾经的新媒体的朋友，或是网络中心的老师、学长还是那群嚷嚷着要“投湖”的基友，真的很感谢你们对我的包容和照顾,使我从初入大学一脸懵的萌新，变成能在群里看dalao操作的死咸鱼。（雾</p>
+<hr>
+<blockquote>
+<p>要想真正进入一个圈子，首先自己要成为那样的人。 要想过好这一生，自己就要努力成为一个厉害的人。 人脉不是你认识多少人而是有多少人想认识你。不执念于虚名，不迷恋于人脉，不着急于一步登天，踏踏实实耕耘自己的人生。<br><strong>毕竟，这是一个信仰实力的时代</strong>！</p>
+</blockquote>
+<h2 id="flag最多的一年"><a href="#flag最多的一年" class="headerlink" title="flag最多的一年"></a>flag最多的一年</h2><p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lblyhj31400u078z.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lblyhj31400u078z.jpg" class="lazyload"></a></p>
+<hr>
+<p><strong>“我一定要把博客搭好！”</strong>这句喊了一年的话，终于在寒假实现了，从十月第一次听说ctf，到现在慢慢开始记录<code>write up</code>（虽然还没有放上来233）、开始以龟速划水前行，<strong>成长</strong>这条道路,我才刚刚开始上路。</p>
+<p>今年陆陆续续打了几场比赛，也躺了个奖（自己是真的菜），基本上在比赛时自己就是一脸懵的看着题目和感慨大佬神乎其神的操作，但也因此认识了各地的师傅，也激发起自己学习的动力，明确了目标。记得前几天还说，要在过年前记录php序列化的学习过程，在网上看了许多dalao的博客总结后，结果到今天，自己才<strong>可耻</strong>的写下了一个title<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lan0rj30u0139gqf.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lan0rj30u0139gqf.jpg" class="lazyload"></a> width=”20%” height=”20%”&gt;<br>尽量过几天赶出来吧，大年初一、初二要出去拜年，争取在初六和朋友们出去玩之前写一部分吧。</p>
+<hr>
+<h2 id="19年的flag"><a href="#19年的flag" class="headerlink" title="19年的flag"></a>19年的flag</h2><ul>
+<li>坚持学习，坚持把学习成果记录总结</li>
+<li>多写代码，自己学会写漏洞环境，学习代码审计</li>
+<li>除了web方向，开始学习RE</li>
+<li>注意身体，少熬夜</li>
+<li>努力向XCTF发起挑战</li>
+</ul>
+<hr>
+<p>好了，就这样吧，配家里人看春晚去了</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Manayakko</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://manayakko.github.io/yakko117/2019/02/04/%E4%BD%A0%E7%9C%8B%E4%BB%96%E8%BA%AB%E4%B8%8A%E6%8F%92%E6%BB%A1%E7%9A%84flag%E5%83%8F%E4%B8%8D%E5%83%8F%E4%B8%AA%E5%94%B1%E6%88%8F%E7%9A%84%E8%80%81%E5%B0%86%E5%86%9B/">https://manayakko.github.io/yakko117/2019/02/04/%E4%BD%A0%E7%9C%8B%E4%BB%96%E8%BA%AB%E4%B8%8A%E6%8F%92%E6%BB%A1%E7%9A%84flag%E5%83%8F%E4%B8%8D%E5%83%8F%E4%B8%AA%E5%94%B1%E6%88%8F%E7%9A%84%E8%80%81%E5%B0%86%E5%86%9B/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://manayakko.github.io/yakko117">Manayakko - 微笑才是王道</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/yakko117/tags/%E7%9E%8E%E6%89%AF/">瞎扯    </a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5ldenxj31hc0u0gqw.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/yakko117/img/Wechat.jpg" alt="微信"><div class="post-qr-code__desc">微信</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/yakko117/2019/03/03/%E6%B5%85%E8%B0%88PHP%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/"><img class="prev_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0ps6u8qf1j30xc0jvwl3.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="label">上一篇</div><div class="prev_info"><span>浅谈PHP序列化和反序列化</span></div></a></div><div class="next-post pull_right"><a href="/yakko117/2019/01/22/PHP%E5%BC%B1%E7%B1%BB%E5%9E%8B%E6%80%BB%E7%BB%93/"><img class="next_cover lazyload" data-src="https://manayakko.github.io/yakko117/img/index2.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>PHP code audit</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/yakko117/2020/01/14/ARP学习总结/" title="ARP学习总结"><img class="relatedPosts_cover lazyload"data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/ARP_cover.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-history fa-fw" aria-hidden="true"></i> 2020-01-14</div><div class="relatedPosts_title">ARP学习总结</div></div></a></div><div class="relatedPosts_item"><a href="/yakko117/2020/03/29/Ddos学习/" title="DDoS原理与防御"><img class="relatedPosts_cover lazyload"data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/ddos_0.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-history fa-fw" aria-hidden="true"></i> 2020-03-31</div><div class="relatedPosts_title">DDoS原理与防御</div></div></a></div><div class="relatedPosts_item"><a href="/yakko117/2020/01/13/Linux_etc_passwd/" title="Linux /etc/passwd 内容解释"><img class="relatedPosts_cover lazyload"data-src="https://manayakko.github.io/yakko117/img/index2.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-history fa-fw" aria-hidden="true"></i> 2020-01-13</div><div class="relatedPosts_title">Linux /etc/passwd 内容解释</div></div></a></div></div><div class="clear_both"></div></div></div></main><footer id="footer" style="background-image: url(https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5ldenxj31hc0u0gqw.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2023 By Manayakko</div><div class="framework-info"><span>驱动 </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/yakko117/js/utils.js"></script><script src="/yakko117/js/main.js"></script><script src="/yakko117/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "HTML-CSS": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "SVG": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  }
+});
+</script><script type="text/x-mathjax-config">MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for (i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css"><script>$(function () {
+  $('span.katex-display').wrap('<div class="katex-wrap"></div>')
+})</script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="/yakko117/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/yakko117/live2dw/assets/assets/shizuku.model.json"},"display":{"position":"right","hOffset":60,"vOffset":-20,"width":90,"height":180},"mobile":{"show":false},"log":false});</script></body></html>
