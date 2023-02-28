@@ -1,21 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Monash Courses 2023S1 MasterofCS</title>
-    <url>/yakko117/2023/02/26/MonashCourses/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p> 想到啥写啥，希望顺利毕业 hhh</p>
-<h1 id="FIT9137-计组和网络"><a href="#FIT9137-计组和网络" class="headerlink" title="FIT9137 计组和网络"></a>FIT9137 计组和网络</h1><p>开学前老师会让大伙安装虚拟机和环境，环境是个轻量级的<code>Ubuntu</code>，叫作 <code>Lubuntu</code><br><a href="https://manual.lubuntu.me/stable/index.html" target="_blank" rel="noopener">官方手册</a> 可以推荐看看，大部分问题都可以解决</p>
-<p>安装好的网络适配环境，VMware 可能会出现NAT配置网络失败，VirtualBox 自适配好一些(包括屏幕分辨率什么的)，网络解决办法是先点击左下音量左边的网络配置，然后选择<code>Auto Ethernet</code>, 然后用浏览器测试网站是否连接成功<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" data-fancybox="group" data-caption="week0_1" class="fancybox"><img alt="week0_1" title="week0_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" class="lazyload"></a></p>
-<hr>
-<h1 id="FIT9136-Python"><a href="#FIT9136-Python" class="headerlink" title="FIT9136 Python"></a>FIT9136 Python</h1><hr>
-<h1 id="FIT9132-SQL"><a href="#FIT9132-SQL" class="headerlink" title="FIT9132 SQL"></a>FIT9132 SQL</h1><p> <a href="https://handbook.monash.edu/2023/units/FIT9132" target="_blank" rel="noopener">学校handbook</a></p>
-<h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>安装 SQL Developer <a href="https://lms.monash.edu/pluginfile.php/15800135/mod_label/intro/OracleClientSoftwareSQLDeveloper_S1_23.pdf?time=1677133551842" target="_blank" rel="noopener">install guide</a> 和VPN，开始摸鱼</p>
-<p><strong>设置注意事项</strong><br>在你安装的路径找到 <code>sqldeveloper.exe</code>， 右键属性，更改高DPI, 然后下面的选项勾上， 选择system or 系统<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280823439.jpg" data-fancybox="group" data-caption="属性设置" class="fancybox"><img alt="属性设置" title="属性设置" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280823439.jpg" class="lazyload"></a></p>
-<p>然后是语言设置，如果是需要中文，在安装 <code>sqldeveloper</code> 的文件夹 找到 <code>ide</code> 文件，打开进入 <code>bin</code> 文件， 找到 <code>ide.conf</code> 右键用文本编辑器打开，比如leadpad notepad++ 或者是记事本， 在<code>ide.conf</code>最后加入以下代码，保存退出重新进入sql软件即可。</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div></div><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">切换英文</span><br><span class="line">AddVMOption -Duser.language&#x3D;en</span><br><span class="line">AddVMOption -Duser.country&#x3D;AU</span><br><span class="line"></span><br><span class="line">切换中文</span><br><span class="line">AddVMOption -Duser.language&#x3D;zh</span><br><span class="line">AddVMOption -Duser.country&#x3D;CN</span><br></pre></td></tr></table></figure></div>
+    <title>Monash Courses 2023S1 FIT9136</title>
+    <url>/yakko117/2023/03/01/MonashCs9136/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>什么奇奇怪怪的大课形式</p>
+<h1 id="FIT9136-Python"><a href="#FIT9136-Python" class="headerlink" title="FIT9136 Python"></a>FIT9136 Python</h1><h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>简单的通识教育<br><a href="https://runestone.academy/ns/books/published/fopp/index.html" target="_blank" rel="noopener">学校给的参考文献</a></p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">python</div></div><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#Ask for radius</span></span><br><span class="line">radius = int(input(<span class="string">"Enter the radius: "</span>))</span><br><span class="line"><span class="comment">#let area = (radius2) × π</span></span><br><span class="line">area = (radius * radius) * <span class="number">3.1415</span></span><br><span class="line"><span class="comment">#Display area</span></span><br><span class="line">print(<span class="string">"The area of a circle with radius"</span>, radius, <span class="string">"is:"</span>, <span class="string">'%.4f'</span>%area)</span><br><span class="line"><span class="comment"># 保留指定小数</span></span><br></pre></td></tr></table></figure></div>
 
-<hr>
-<h1 id="FIT9130-系统分析和设计"><a href="#FIT9130-系统分析和设计" class="headerlink" title="FIT9130 系统分析和设计"></a>FIT9130 系统分析和设计</h1>]]></content>
+<p>Algorithms is <strong>A step by step sequence of instructions that if followed exactly will solve the problem under consideration.</strong></p>
+<ul>
+<li><p>Algorithms are like recipes: they must be followed exactly, they must be clear and unambiguous, and they must end.</p>
+<p>特点在 <code>Natural languages</code> 而不在 <code>formal languages</code></p>
+</li>
+<li><p>ambiguity含糊, redundancy冗余, and literalness字义的，表面意义的.</p>
+</li>
+<li><p>Syntax errors found by compiler &amp; interpreter.</p>
+</li>
+<li><p>Runtime errors found by interpreter.</p>
+</li>
+<li><p>The programmers could find semantic errors. // 语义语法</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>瞎扯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Monash Courses 2023S1 FIT9132</title>
+    <url>/yakko117/2023/02/28/MonashCs9132/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="FIT9132-SQL"><a href="#FIT9132-SQL" class="headerlink" title="FIT9132 SQL"></a>FIT9132 SQL</h1><p> <a href="https://handbook.monash.edu/2023/units/FIT9132" target="_blank" rel="noopener">学校handbook</a><br> <a href="https://docs.oracle.com/en/database/oracle/sql-developer/22.2/books.html" target="_blank" rel="noopener">官方guidebook</a></p>
+<h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>安装 SQL Developer <a href="https://lms.monash.edu/pluginfile.php/15800135/mod_label/intro/OracleClientSoftwareSQLDeveloper_S1_23.pdf?time=1677133551842" target="_blank" rel="noopener">install guide</a> 和VPN，开始摸鱼</p>
+<p><a href="https://lms.monash.edu/pluginfile.php/15800233/mod_resource/content/37/FIT9132_AppliedSession_1-2023S1.pdf" target="_blank" rel="noopener">课堂pdf指导，推荐仔细看</a></p>
+<h3 id="sql-设置注意事项"><a href="#sql-设置注意事项" class="headerlink" title="sql 设置注意事项"></a>sql 设置注意事项</h3><p>在你安装的路径找到 <code>sqldeveloper.exe</code>， 右键属性，更改高DPI, 然后下面的选项勾上， 选择system or 系统<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280823439.jpg" data-fancybox="group" data-caption="属性设置" class="fancybox"><img alt="属性设置" title="属性设置" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280823439.jpg" class="lazyload"></a></p>
+<p>然后是语言设置，如果是需要中文，在安装 <code>sqldeveloper</code> 的文件夹 找到 <code>ide</code> 文件，打开进入 <code>bin</code> 文件， 找到 <code>ide.conf</code> 右键用文本编辑器打开，比如leadpad notepad++ 或者是记事本， 在<code>ide.conf</code>最后加入以下代码，保存退出重新进入sql软件即可。</p>
+<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280845835.jpg" data-fancybox="group" data-caption="切换语言" class="fancybox"><img alt="切换语言" title="切换语言" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280845835.jpg" class="lazyload"></a></p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">html</div></div><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">切换英文</span><br><span class="line">AddVMOption -Duser.language=en</span><br><span class="line">AddVMOption -Duser.country=AU</span><br><span class="line"></span><br><span class="line">切换中文</span><br><span class="line">AddVMOption -Duser.language=zh</span><br><span class="line">AddVMOption -Duser.country=CN</span><br></pre></td></tr></table></figure></div>
+<p>然后是<strong>系统preference设置</strong><br>在 <code>工具 tools</code> 找到最下面的选项 preference 点开，找到 <code>Code Editor</code> 点开左边加号进行展开，选到 <code>Line Gutter</code>， 勾选 <code>Show Line Numbers</code>  </p>
+<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280846337.jpg" data-fancybox="group" data-caption="preference" class="fancybox"><img alt="preference" title="preference" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280846337.jpg" class="lazyload"></a></p>
+<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280846994.jpg" data-fancybox="group" data-caption="preference_1" class="fancybox"><img alt="preference_1" title="preference_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280846994.jpg" class="lazyload"></a></p>
+<p>然后点开下面的 <code>format</code>， 展开选择 <code>Advanced Format</code>， 找到 <code>Max char line width</code> 改成80(默认128)</p>
+<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280846311.jpg" data-fancybox="group" data-caption="preference_2" class="fancybox"><img alt="preference_2" title="preference_2" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280846311.jpg" class="lazyload"></a></p>
+<p>后续几个照着pdf调设置就行了</p>
+<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281009563.jpg" data-fancybox="group" data-caption="preference_3" class="fancybox"><img alt="preference_3" title="preference_3" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281009563.jpg" class="lazyload"></a></p>
+<h3 id="git-设置"><a href="#git-设置" class="headerlink" title="git 设置"></a>git 设置</h3><p><a href="https://git.infotech.monash.edu" target="_blank" rel="noopener">Monash Gitlab</a><br><em>(this uses Monash SAML login - Monash single sign-on)</em><br>进入网站，点击页面右上角头像栏，展开有<code>Preferences</code>，<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281016779.jpg" data-fancybox="group" data-caption="week1_git1" class="fancybox"><img alt="week1_git1" title="week1_git1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281016779.jpg" class="lazyload"></a></p>
+<p>点开会跳转到新页面，找到 <code>Access Tokens</code><br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281018568.jpg" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281018568.jpg" class="lazyload"></a></p>
+<p><code>Token name</code> 随便输入，<code>Expiration date</code> 可以设置远一点，至少比本学期长一点 = =;<br>勾选 <code>Api</code> 选项，然后就 <code>create token</code> 就行了，<strong>记得要把生成的token保存下来，后面要用</strong><br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281021025.jpg" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302281021025.jpg" class="lazyload"></a></p>
+<h3 id="使用-SQL-Developer-设置local-repo"><a href="#使用-SQL-Developer-设置local-repo" class="headerlink" title="使用 SQL Developer 设置local repo"></a>使用 SQL Developer 设置local repo</h3><p>首先确保gitlab 账号和token都已经设置好了<br>在校内就直连wifi，在家就用VPN，然后在磁盘设置好一个sql工作环境，比如新建文件夹，设置文件夹为<code>FIT9132_workspace</code>，</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>瞎扯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Monash Courses 2023S1 FIT9137</title>
+    <url>/yakko117/2023/02/26/MonashCs9137/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>想到啥写啥，希望顺利毕业 hhh</p>
+<h1 id="FIT9137-计组和网络"><a href="#FIT9137-计组和网络" class="headerlink" title="FIT9137 计组和网络"></a>FIT9137 计组和网络</h1><h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>开学前老师会让大伙安装虚拟机和环境，环境是个轻量级的<code>Ubuntu</code>，叫作 <code>Lubuntu</code><br><a href="https://manual.lubuntu.me/stable/index.html" target="_blank" rel="noopener">官方手册</a> 可以推荐看看，大部分问题都可以解决</p>
+<p>安装好的网络适配环境，VMware 可能会出现NAT配置网络失败，VirtualBox 自适配好一些(包括屏幕分辨率什么的)，网络解决办法是先点击左下音量左边的网络配置，然后选择<code>Auto Ethernet</code>, 然后用浏览器测试网站是否连接成功<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" data-fancybox="group" data-caption="week0_1" class="fancybox"><img alt="week0_1" title="week0_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" class="lazyload"></a></p>
+]]></content>
       <categories>
         <category>学习笔记</category>
       </categories>
@@ -84,8 +133,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -163,8 +212,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -205,8 +254,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -244,8 +293,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>code audit</tag>
         <tag>瞎扯</tag>
+        <tag>code audit</tag>
       </tags>
   </entry>
   <entry>
@@ -792,8 +841,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>code audit</tag>
         <tag>瞎扯</tag>
+        <tag>code audit</tag>
       </tags>
   </entry>
   <entry>
@@ -1526,8 +1575,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>php</tag>
+        <tag>ctf</tag>
         <tag>code audit</tag>
       </tags>
   </entry>
@@ -1591,8 +1640,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
         <tag>密码学</tag>
       </tags>
   </entry>
@@ -1672,8 +1721,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -1891,8 +1940,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2023,8 +2072,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2107,8 +2156,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2177,8 +2226,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2536,8 +2585,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2616,8 +2665,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2704,8 +2753,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -3569,8 +3618,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>php</tag>
         <tag>瞎扯</tag>
+        <tag>php</tag>
       </tags>
   </entry>
   <entry>
@@ -3793,8 +3842,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -3866,8 +3915,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -3919,8 +3968,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -4069,8 +4118,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
         <tag>code audit</tag>
       </tags>
   </entry>
@@ -4119,8 +4168,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>瞎扯</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -4155,8 +4204,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -4247,8 +4296,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -4351,8 +4400,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
