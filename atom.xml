@@ -6,7 +6,7 @@
   <link href="/yakko117/atom.xml" rel="self"/>
   
   <link href="https://manayakko.github.io/yakko117/"/>
-  <updated>2023-02-26T06:01:08.964Z</updated>
+  <updated>2023-02-28T00:29:19.594Z</updated>
   <id>https://manayakko.github.io/yakko117/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://manayakko.github.io/yakko117/2023/02/26/MonashCourses/"/>
     <id>https://manayakko.github.io/yakko117/2023/02/26/MonashCourses/</id>
     <published>2023-02-26T05:38:40.481Z</published>
-    <updated>2023-02-26T06:01:08.964Z</updated>
+    <updated>2023-02-28T00:29:19.594Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p> 想到啥写啥，希望顺利毕业 hhh</p><h1 id="FIT9137-计组和网络"><a href="#FIT9137-计组和网络" class="headerlink" title="FIT9137 计组和网络"></a>FIT9137 计组和网络</h1><p>开学前老师会让大伙安装虚拟机和环境，环境是个轻量级的<code>Ubuntu</code>，叫作 <code>Lubuntu</code><br><a href="https://manual.lubuntu.me/stable/index.html" target="_blank" rel="noopener">官方手册</a> 可以推荐看看，大部分问题都可以解决</p><p>安装好的网络适配环境，VMware 可能会出现NAT配置网络失败，VirtualBox 自适配好一些(包括屏幕分辨率什么的)，网络解决办法是先点击左下音量左边的网络配置，然后选择<code>Auto Ethernet</code>, 然后用浏览器测试网站是否连接成功<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" data-fancybox="group" data-caption="week0_1" class="fancybox"><img alt="week0_1" title="week0_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" class="lazyload"></a></p><hr><h1 id="FIT9136-Python"><a href="#FIT9136-Python" class="headerlink" title="FIT9136 Python"></a>FIT9136 Python</h1><hr><h1 id="FIT9132-SQL"><a href="#FIT9132-SQL" class="headerlink" title="FIT9132 SQL"></a>FIT9132 SQL</h1><hr><h1 id="FIT9130-系统分析和设计"><a href="#FIT9130-系统分析和设计" class="headerlink" title="FIT9130 系统分析和设计"></a>FIT9130 系统分析和设计</h1>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p> 想到啥写啥，希望顺利毕业 hhh</p><h1 id="FIT9137-计组和网络"><a href="#FIT9137-计组和网络" class="headerlink" title="FIT9137 计组和网络"></a>FIT9137 计组和网络</h1><p>开学前老师会让大伙安装虚拟机和环境，环境是个轻量级的<code>Ubuntu</code>，叫作 <code>Lubuntu</code><br><a href="https://manual.lubuntu.me/stable/index.html" target="_blank" rel="noopener">官方手册</a> 可以推荐看看，大部分问题都可以解决</p><p>安装好的网络适配环境，VMware 可能会出现NAT配置网络失败，VirtualBox 自适配好一些(包括屏幕分辨率什么的)，网络解决办法是先点击左下音量左边的网络配置，然后选择<code>Auto Ethernet</code>, 然后用浏览器测试网站是否连接成功<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" data-fancybox="group" data-caption="week0_1" class="fancybox"><img alt="week0_1" title="week0_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" class="lazyload"></a></p><hr><h1 id="FIT9136-Python"><a href="#FIT9136-Python" class="headerlink" title="FIT9136 Python"></a>FIT9136 Python</h1><hr><h1 id="FIT9132-SQL"><a href="#FIT9132-SQL" class="headerlink" title="FIT9132 SQL"></a>FIT9132 SQL</h1><p> <a href="https://handbook.monash.edu/2023/units/FIT9132" target="_blank" rel="noopener">学校handbook</a></p><h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>安装 SQL Developer <a href="https://lms.monash.edu/pluginfile.php/15800135/mod_label/intro/OracleClientSoftwareSQLDeveloper_S1_23.pdf?time=1677133551842" target="_blank" rel="noopener">install guide</a> 和VPN，开始摸鱼</p><p><strong>设置注意事项</strong><br>在你安装的路径找到 <code>sqldeveloper.exe</code>， 右键属性，更改高DPI, 然后下面的选项勾上， 选择system or 系统<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280823439.jpg" data-fancybox="group" data-caption="属性设置" class="fancybox"><img alt="属性设置" title="属性设置" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302280823439.jpg" class="lazyload"></a></p><p>然后是语言设置，如果是需要中文，在安装 <code>sqldeveloper</code> 的文件夹 找到 <code>ide</code> 文件，打开进入 <code>bin</code> 文件， 找到 <code>ide.conf</code> 右键用文本编辑器打开，比如leadpad notepad++ 或者是记事本， 在<code>ide.conf</code>最后加入以下代码，保存退出重新进入sql软件即可。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">切换英文</span><br><span class="line">AddVMOption -Duser.language&#x3D;en</span><br><span class="line">AddVMOption -Duser.country&#x3D;AU</span><br><span class="line"></span><br><span class="line">切换中文</span><br><span class="line">AddVMOption -Duser.language&#x3D;zh</span><br><span class="line">AddVMOption -Duser.country&#x3D;CN</span><br></pre></td></tr></table></figure></div><hr><h1 id="FIT9130-系统分析和设计"><a href="#FIT9130-系统分析和设计" class="headerlink" title="FIT9130 系统分析和设计"></a>FIT9130 系统分析和设计</h1>]]></content>
     
     <summary type="html">
     
@@ -145,9 +145,9 @@
       <category term="学习笔记" scheme="https://manayakko.github.io/yakko117/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="瞎扯" scheme="https://manayakko.github.io/yakko117/tags/%E7%9E%8E%E6%89%AF/"/>
-    
       <category term="code audit" scheme="https://manayakko.github.io/yakko117/tags/code-audit/"/>
+    
+      <category term="瞎扯" scheme="https://manayakko.github.io/yakko117/tags/%E7%9E%8E%E6%89%AF/"/>
     
   </entry>
   
@@ -282,9 +282,9 @@
       <category term="学习笔记" scheme="https://manayakko.github.io/yakko117/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="瞎扯" scheme="https://manayakko.github.io/yakko117/tags/%E7%9E%8E%E6%89%AF/"/>
-    
       <category term="code audit" scheme="https://manayakko.github.io/yakko117/tags/code-audit/"/>
+    
+      <category term="瞎扯" scheme="https://manayakko.github.io/yakko117/tags/%E7%9E%8E%E6%89%AF/"/>
     
   </entry>
   
