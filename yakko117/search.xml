@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Monash Courses 2023S1 FIT9130</title>
+    <url>/yakko117/2023/03/01/MonashCs9130/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>要考试，感觉是纯理论性质的课程，希望能拿HD</p>
+<h1 id="FIT9130-系统分析与设计"><a href="#FIT9130-系统分析与设计" class="headerlink" title="FIT9130 系统分析与设计"></a>FIT9130 系统分析与设计</h1><h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>有考试，有paper，好好理解好好学</p>
+<h3 id="Conception"><a href="#Conception" class="headerlink" title="Conception"></a>Conception</h3><ol>
+<li><p><strong><font color="red">What is information system?</font></strong></p>
+<ul>
+<li>consist of interrelated computer components for <strong>collecting, storing, processing and analyzing</strong> data to produce the information that <strong><font color="red">helps businesses to meet their needs</font></strong> or solve their problems.</li>
+</ul>
+</li>
+<li><p>Why Data is important?</p>
+<ul>
+<li>It provides functionalities to ensure critical information is stored and made available.</li>
+<li><strong>better systems</strong> lead to more <strong>productive and profitable</strong> organizations.</li>
+</ul>
+</li>
+</ol>
+<p>system is a <strong>process</strong> –&gt; task -&gt; subsystem</p>
+<p>requirement–&gt; need of the client</p>
+<p>risk of <strong>understanding requirements</strong></p>
+<ul>
+<li>occur some issues</li>
+<li>designing the requirements</li>
+</ul>
+<p>software requirement specialization</p>
+<p>business website<br>Not just at present, to consider for the future</p>
+<p><strong><font color="red">next week analysis</font></strong><br>a way to approach the problems<br>UML –&gt; logical padding language</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>瞎扯</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Monash Courses 2023S1 FIT9136</title>
     <url>/yakko117/2023/03/01/MonashCs9136/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>什么奇奇怪怪的大课形式</p>
@@ -144,8 +180,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -223,8 +259,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -265,8 +301,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -1586,8 +1622,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>php</tag>
+        <tag>ctf</tag>
         <tag>code audit</tag>
       </tags>
   </entry>
@@ -1651,8 +1687,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
         <tag>密码学</tag>
       </tags>
   </entry>
@@ -1732,8 +1768,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -1951,8 +1987,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2083,8 +2119,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2167,8 +2203,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2237,8 +2273,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2596,8 +2632,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2676,8 +2712,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -2764,8 +2800,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -3853,8 +3889,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -3926,8 +3962,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -3979,8 +4015,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -4129,8 +4165,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
         <tag>code audit</tag>
       </tags>
   </entry>
@@ -4215,8 +4251,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -4307,8 +4343,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -4411,8 +4447,8 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>ctf</tag>
         <tag>writeup</tag>
+        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>

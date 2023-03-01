@@ -6,7 +6,7 @@
   <link href="/yakko117/atom.xml" rel="self"/>
   
   <link href="https://manayakko.github.io/yakko117/"/>
-  <updated>2023-03-01T00:10:40.651Z</updated>
+  <updated>2023-03-01T02:45:08.087Z</updated>
   <id>https://manayakko.github.io/yakko117/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Monash Courses 2023S1 FIT9130</title>
+    <link href="https://manayakko.github.io/yakko117/2023/03/01/MonashCs9130/"/>
+    <id>https://manayakko.github.io/yakko117/2023/03/01/MonashCs9130/</id>
+    <published>2023-03-01T00:22:11.455Z</published>
+    <updated>2023-03-01T02:45:08.087Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>要考试，感觉是纯理论性质的课程，希望能拿HD</p><h1 id="FIT9130-系统分析与设计"><a href="#FIT9130-系统分析与设计" class="headerlink" title="FIT9130 系统分析与设计"></a>FIT9130 系统分析与设计</h1><h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>有考试，有paper，好好理解好好学</p><h3 id="Conception"><a href="#Conception" class="headerlink" title="Conception"></a>Conception</h3><ol><li><p><strong><font color="red">What is information system?</font></strong></p><ul><li>consist of interrelated computer components for <strong>collecting, storing, processing and analyzing</strong> data to produce the information that <strong><font color="red">helps businesses to meet their needs</font></strong> or solve their problems.</li></ul></li><li><p>Why Data is important?</p><ul><li>It provides functionalities to ensure critical information is stored and made available.</li><li><strong>better systems</strong> lead to more <strong>productive and profitable</strong> organizations.</li></ul></li></ol><p>system is a <strong>process</strong> –&gt; task -&gt; subsystem</p><p>requirement–&gt; need of the client</p><p>risk of <strong>understanding requirements</strong></p><ul><li>occur some issues</li><li>designing the requirements</li></ul><p>software requirement specialization</p><p>business website<br>Not just at present, to consider for the future</p><p><strong><font color="red">next week analysis</font></strong><br>a way to approach the problems<br>UML –&gt; logical padding language</p>]]></content>
+    
+    <summary type="html">
+    
+      HD 欧内该
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://manayakko.github.io/yakko117/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="瞎扯" scheme="https://manayakko.github.io/yakko117/tags/%E7%9E%8E%E6%89%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Monash Courses 2023S1 FIT9136</title>
@@ -110,9 +133,9 @@
       <category term="学习笔记" scheme="https://manayakko.github.io/yakko117/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="ctf" scheme="https://manayakko.github.io/yakko117/tags/ctf/"/>
-    
       <category term="writeup" scheme="https://manayakko.github.io/yakko117/tags/writeup/"/>
+    
+      <category term="ctf" scheme="https://manayakko.github.io/yakko117/tags/ctf/"/>
     
   </entry>
   
@@ -138,9 +161,9 @@
       <category term="学习笔记" scheme="https://manayakko.github.io/yakko117/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="ctf" scheme="https://manayakko.github.io/yakko117/tags/ctf/"/>
-    
       <category term="writeup" scheme="https://manayakko.github.io/yakko117/tags/writeup/"/>
+    
+      <category term="ctf" scheme="https://manayakko.github.io/yakko117/tags/ctf/"/>
     
   </entry>
   
@@ -166,9 +189,9 @@
       <category term="学习笔记" scheme="https://manayakko.github.io/yakko117/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="ctf" scheme="https://manayakko.github.io/yakko117/tags/ctf/"/>
-    
       <category term="writeup" scheme="https://manayakko.github.io/yakko117/tags/writeup/"/>
+    
+      <category term="ctf" scheme="https://manayakko.github.io/yakko117/tags/ctf/"/>
     
   </entry>
   
@@ -497,33 +520,6 @@
     
     
       <category term="渗透" scheme="https://manayakko.github.io/yakko117/tags/%E6%B8%97%E9%80%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从一道题学习php的小特性</title>
-    <link href="https://manayakko.github.io/yakko117/2020/02/12/php%E5%B0%8F%E7%89%B9%E6%80%A7/"/>
-    <id>https://manayakko.github.io/yakko117/2020/02/12/php%E5%B0%8F%E7%89%B9%E6%80%A7/</id>
-    <published>2020-02-12T12:23:08.085Z</published>
-    <updated>2020-02-12T13:26:30.124Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>P神，永远滴神~ (抖个机灵）<br>手上还攒着几个问题，一直没怎么花时间去学习，要抓紧时间了</p><a id="more"></a><h1 id="安恒-奇怪的恐龙特性"><a href="#安恒-奇怪的恐龙特性" class="headerlink" title="[安恒] 奇怪的恐龙特性"></a>[安恒] 奇怪的恐龙特性</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> </span><br><span class="line">highlight_file(<span class="keyword">__FILE__</span>); </span><br><span class="line">ini_set(<span class="string">"display_error"</span>, <span class="keyword">false</span>);  </span><br><span class="line">error_reporting(<span class="number">0</span>);  </span><br><span class="line">$str = <span class="keyword">isset</span>($_GET[<span class="string">'A_A'</span>])?$_GET[<span class="string">'A_A'</span>]:<span class="string">'A_A'</span>; </span><br><span class="line"><span class="keyword">if</span> (strpos($_SERVER[<span class="string">'QUERY_STRING'</span>], <span class="string">"A_A"</span>) !==<span class="keyword">false</span>) &#123; </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">'A_A,have fun'</span>; </span><br><span class="line">&#125; </span><br><span class="line"><span class="keyword">elseif</span> ($str&lt;<span class="number">9999999999</span>) &#123; </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">'A_A,too small'</span>; </span><br><span class="line">&#125; </span><br><span class="line"><span class="keyword">elseif</span> ((string)$str&gt;<span class="number">0</span>) &#123; </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">'A_A,too big'</span>; </span><br><span class="line">&#125; </span><br><span class="line"><span class="keyword">else</span>&#123; </span><br><span class="line">    <span class="keyword">echo</span> file_get_contents(<span class="string">'flag.php'</span>); </span><br><span class="line">&#125; </span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div><h1 id="首先先看一下p神的说法"><a href="#首先先看一下p神的说法" class="headerlink" title="首先先看一下p神的说法"></a>首先先看一下p神的说法</h1><pre><code>我一直在思考，假设我有一个办法，在第一次WAF检测参数的时候，检测的是22222，但后面覆盖request的时候，拿到的是11111，那么不就可以造成WAF的绕过了么？但上述两个实验的结果表示，我这个假设是不成立的。二者获取的结果都是22222 。那么，这个思路是否就是不可行的了？</code></pre><p><code>php</code> 自身在解析请求的时候，如果参数名字中包含 <code>&quot; &quot;</code>、<code>&quot;.&quot;</code>、<code>&quot;[&quot;</code> 这几个字符，会将他们转换成 <code>_</code> 。<br>那么假设我发送的是这样一个请求： <code>/t.php?user_id=11111&amp;user.id=22222</code> <code>php</code> 先将 <code>user.id</code> 转换成 <code>user_id</code> 即为 <code>/t.php?user_id=11111&amp;user_id=22222</code> 再获取到的<code>$_REQUEST[&#39;user_id&#39;]</code>就是22222。<br>可在 <code>$_SERVER[&#39;REQUEST_URI&#39;]</code> 中 <code>user_id</code> 和<code>user.id</code>却是两个完全不同的参数名，切割覆盖后，获取的 <code>$_REQUEST[&#39;user_id&#39;]</code> 却是 <code>11111</code>。</p><p>然后再看题目</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">elseif</span> ($str&lt;<span class="number">9999999999</span>) &#123; </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">'A_A,too small'</span>; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>利用数字绕过：数组永远比数字大，永远比数字大</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">shell</div></div><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# php -r "@var_dump(admin==0);"</span><br><span class="line">bool(true)</span><br><span class="line">root@kali:~# php -r "var_dump([]&gt;999999999999999999999);"</span><br><span class="line">bool(true)</span><br></pre></td></tr></table></figure></div><p>第二个判断是强制转化为字符串再与数字比较的判断</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">elseif</span> ((string)$str&gt;<span class="number">0</span>) &#123; </span><br><span class="line">    <span class="keyword">echo</span> <span class="string">'A_A,too big'</span>; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>简单的弱类型绕过了，让参数等于某个字符串，例如：<code>admin</code> 就可以了，因为<code>admin== 0</code>，结果是<code>true</code>，直接等于0绕过，最后的Payload:</p><p><code>?A+A[]=admin</code>w</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;P神，永远滴神~ (抖个机灵）&lt;br&gt;手上还攒着几个问题，一直没怎么花时间去学习，要抓紧时间了&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="学习笔记" scheme="https://manayakko.github.io/yakko117/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="ctf" scheme="https://manayakko.github.io/yakko117/tags/ctf/"/>
-    
-      <category term="php" scheme="https://manayakko.github.io/yakko117/tags/php/"/>
-    
-      <category term="code audit" scheme="https://manayakko.github.io/yakko117/tags/code-audit/"/>
     
   </entry>
   
