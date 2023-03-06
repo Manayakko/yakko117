@@ -83,7 +83,7 @@
       <link href="/yakko117/2023/02/26/MonashCs9137/"/>
       <url>/yakko117/2023/02/26/MonashCs9137/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>想到啥写啥，希望顺利毕业 hhh</p><h1 id="FIT9137-计组和网络"><a href="#FIT9137-计组和网络" class="headerlink" title="FIT9137 计组和网络"></a>FIT9137 计组和网络</h1><h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>开学前老师会让大伙安装虚拟机和环境，环境是个轻量级的<code>Ubuntu</code>，叫作 <code>Lubuntu</code><br><a href="https://manual.lubuntu.me/stable/index.html" target="_blank" rel="noopener">官方手册</a> 可以推荐看看，大部分问题都可以解决</p><p>安装好的网络适配环境，VMware 可能会出现NAT配置网络失败，VirtualBox 自适配好一些(包括屏幕分辨率什么的)，网络解决办法是先点击左下音量左边的网络配置，然后选择<code>Auto Ethernet</code>, 然后用浏览器测试网站是否连接成功<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" data-fancybox="group" data-caption="week0_1" class="fancybox"><img alt="week0_1" title="week0_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" class="lazyload"></a></p><p>推荐了两本书，</p><ul><li><p><strong>Data Communications &amp; Networks</strong><br>  Forouzan, Behrouz A.<br>  5th Edition<br>  McGraw-Hill, 2013</p></li><li><p><strong>Modern Operating Systems</strong><br>  Tanenbaum, Andrew<br>  4th Edition<br>  Pearson, 2014</p></li></ul><h2 id="Homework"><a href="#Homework" class="headerlink" title="Homework"></a>Homework</h2><h3 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h3><p><strong>Modern computer systems are interrupt driven.</strong>  Do some research on why interrupts are important and write in your own words why YOU need to know and understand interrupts (ie. why are they important to your studies?). </p><ul><li>An interrupt is a signal emitted by a device attached to a computer or from a program within the computer. It requires the operating system (OS) to stop and figure out what to do next. <a href="https://www.techtarget.com/whatis/definition/interrupt" target="_blank" rel="noopener">ref-link</a></li><li>By learning interrupt principle, I can better understand the principle of computer operation and better understand the theoretical knowledge of computer architecture.</li></ul><p>Write your own definitions and explanations of the terms <strong>“soft interrupt”</strong> and <strong>“hard interrupt”</strong> and how they work to help remember them in the future.</p><ul><li><strong>Soft interrupt</strong>: the interrupt occurred by software programs or systems to stop program execution and pass execution over to the INT handler.</li><li><strong>hard interrupt</strong>: the interrupt occurred from an external device like some I/O devices, it is a way to avoid wasting the processor’s valuable time in polling loops and waiting for external events.  <a href="https://www.geeksforgeeks.org/difference-between-hardware-interrupt-and-software-interrupt/" target="_blank" rel="noopener">ref-link</a></li></ul><h3 id="Selection"><a href="#Selection" class="headerlink" title="Selection"></a>Selection</h3><p>based on <strong>SERVER-BASED ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|NULL|Presentation logic|<br>||Application/business logic|<br>||Data access logic|<br>||Data storage|</p><p><font color="blue">The client is a ‘dumb terminal’. This architecture can be problematic because the server can cause bottlenecks.</font> // bottleneck: 瓶颈，阻碍</p><p>base on <strong>CLIENT-BASED ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|Presentation logic|Data storage|<br>|Application/business logic||<br>|Data access logic||</p><p><font color="blue">All logic is performed by the client. The server stores the data. This architecture can be problematic because all data needs to travel between server and client.</font></p><p>base on <strong>CLIENT-SERVER ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|Presentation logic|Data access logic|<br>|Application/business logic|Data storage|</p><p>base on <strong>THIN-CLIENT ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|Presentation logic|Application/business logic|<br>||Data access logic|<br>||Data storage|</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>想到啥写啥，希望顺利毕业 hhh</p><h1 id="FIT9137-计组和网络"><a href="#FIT9137-计组和网络" class="headerlink" title="FIT9137 计组和网络"></a>FIT9137 计组和网络</h1><h2 id="week1"><a href="#week1" class="headerlink" title="week1"></a>week1</h2><p>开学前老师会让大伙安装虚拟机和环境，环境是个轻量级的<code>Ubuntu</code>，叫作 <code>Lubuntu</code><br><a href="https://manual.lubuntu.me/stable/index.html" target="_blank" rel="noopener">官方手册</a> 可以推荐看看，大部分问题都可以解决</p><p>安装好的网络适配环境，VMware 可能会出现NAT配置网络失败，VirtualBox 自适配好一些(包括屏幕分辨率什么的)，网络解决办法是先点击左下音量左边的网络配置，然后选择<code>Auto Ethernet</code>, 然后用浏览器测试网站是否连接成功<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" data-fancybox="group" data-caption="week0_1" class="fancybox"><img alt="week0_1" title="week0_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202302261356909.jpg" class="lazyload"></a></p><p>推荐了两本书，</p><ul><li><p><strong>Data Communications &amp; Networks</strong><br>  Forouzan, Behrouz A.<br>  5th Edition<br>  McGraw-Hill, 2013</p></li><li><p><strong>Modern Operating Systems</strong><br>  Tanenbaum, Andrew<br>  4th Edition<br>  Pearson, 2014</p></li></ul><h2 id="Homework"><a href="#Homework" class="headerlink" title="Homework"></a>Homework</h2><h3 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h3><p><strong>Modern computer systems are interrupt driven.</strong>  Do some research on why interrupts are important and write in your own words why YOU need to know and understand interrupts (ie. why are they important to your studies?). </p><ul><li>An interrupt is a signal emitted by a device attached to a computer or from a program within the computer. It requires the operating system (OS) to stop and figure out what to do next. <a href="https://www.techtarget.com/whatis/definition/interrupt" target="_blank" rel="noopener">ref-link</a></li><li>By learning interrupt principle, I can better understand the principle of computer operation and better understand the theoretical knowledge of computer architecture.</li></ul><p>Write your own definitions and explanations of the terms <strong>“soft interrupt”</strong> and <strong>“hard interrupt”</strong> and how they work to help remember them in the future.</p><ul><li><strong>Soft interrupt</strong>: the interrupt occurred by software programs or systems to stop program execution and pass execution over to the INT handler.</li><li><strong>hard interrupt</strong>: the interrupt occurred from an external device like some I/O devices, it is a way to avoid wasting the processor’s valuable time in polling loops and waiting for external events.  <a href="https://www.geeksforgeeks.org/difference-between-hardware-interrupt-and-software-interrupt/" target="_blank" rel="noopener">ref-link</a></li></ul><h3 id="Selection"><a href="#Selection" class="headerlink" title="Selection"></a>Selection</h3><p>based on <strong>SERVER-BASED ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|NULL|Presentation logic|<br>||Application/business logic|<br>||Data access logic|<br>||Data storage|</p><p><font color="blue">The client is a ‘dumb terminal’. This architecture can be problematic because the server can cause bottlenecks.</font> // bottleneck: 瓶颈，阻碍</p><p>base on <strong>CLIENT-BASED ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|Presentation logic|Data storage|<br>|Application/business logic||<br>|Data access logic||</p><p><font color="blue">All logic is performed by the client. The server stores the data. This architecture can be problematic because all data needs to travel between server and client.</font></p><p>base on <strong>CLIENT-SERVER ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|Presentation logic|Data access logic|<br>|Application/business logic|Data storage|</p><p>base on <strong>THIN-CLIENT ARCHITECTURE</strong><br>|Client|Server|<br>|—|—|<br>|Presentation logic|Application/business logic|<br>||Data access logic|<br>||Data storage|</p><hr><h2 id="week2"><a href="#week2" class="headerlink" title="week2"></a>week2</h2><h3 id="pre-class"><a href="#pre-class" class="headerlink" title="pre-class"></a>pre-class</h3><h4 id="Selection-1"><a href="#Selection-1" class="headerlink" title="Selection"></a>Selection</h4><p><strong>Which of the following statements is true regarding the order of the phases of a cycle in a conventional processor?</strong></p><p>a. The processor first executes the instruction (Execute phase), then fetches the required data into its registers (Fetch phase), and finally decodes the results (Decode phase)</p><p>b. The processor first decodes the instruction (Decode phase), then fetches the required data into its registers (Fetch phase), and finally executes (Execute phase)</p><p>c. The processor first fetches the instruction and data into its registers (Fetch phase), then decodes the instruction (Decode phase), and finally executes the instruction on data (Execute phase).</p><p>d. The processor first fetches the instruction (Fetch phase), then executes the instruction (Execute phase), and finally decodes the results (Decode phase)</p><p><strong>Which of the following statements is false regarding the process management function of Operating System (OS)?</strong></p><p>a. The process management function of OS loads the entire program into main memory when creating the process.</p><p>b. The process management function of OS controls the execution of the processes and acts on exceptional conditions arising during execution.</p><p>c. The process management function of OS creates and destroys processes.</p><p>d. The process management function of OS allocates resources among processes.</p><h4 id="Q-amp-A-1"><a href="#Q-amp-A-1" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h4><p><strong>Write three things that a kernel does that makes it important.</strong><br><code>Memory management</code>； <code>Process management</code>；<code>Operation System</code></p><p><strong>FAT32</strong> (File Allocation Table 32) is a file system that is commonly used on Windows-based computers.</p><p><strong>NTFS</strong> (New Technology File System) is a file system that was introduced with Windows NT in 1993 and is still widely used on modern Windows-based computers. It is a more advanced file system than the older FAT16 and FAT32 file systems and offers several improvements in terms of performance, security, and reliability.</p><table><thead><tr><th>FAT32</th><th>NTFS</th></tr></thead><tbody><tr><td>Maximum 4GB file size</td><td>Maximum 16GB file size</td></tr><tr><td>Ps4 can read</td><td>MacOS can read but not write</td></tr><tr><td>Simple structure</td><td>Complex structure</td></tr><tr><td>Maximum of 83 characters in a file name</td><td>Includes file encryption</td></tr><tr><td></td><td>Includes file compression</td></tr></tbody></table><h4 id="Do-some-research-on-hard-link-and-soft-links"><a href="#Do-some-research-on-hard-link-and-soft-links" class="headerlink" title="Do some research on hard link and soft links."></a>Do some research on hard link and soft links.</h4><p>Both soft links and hard links are methods of linking files or directories, </p><ol><li><p>They are stored in different locations, soft link is a file that contains a pathname pointing to the target file. And hard link is a direct link pointing to the target file.<br>存储位置：软链接和硬链接都是指向另一个文件或目录的链接，但是它们的存储位置不同。软链接是一个特殊的文件，其中包含指向目标文件的路径名。而硬链接是一个指向目标文件的直接链接，它们实际上是同一个文件，只是具有不同的文件名和路径。</p></li><li><p>Soft links can pass through file systems, but hard links can only be created within the same file system.<br>跨文件系统：软链接可以跨越文件系统，也就是说可以链接到不同的磁盘或分区上的文件。而硬链接只能在同一个文件系统内创建，因为它们依赖于文件系统中的inode编号，而不同的文件系统可能会有不同的inode编号。</p></li><li><p>When the original file is deleted, soft links and hard links are handled differently. The soft link just points to the path name of the original file. When the original file is deleted, the soft link will point to a file that does not exist. The hard link is an alias of the original file. Even if the original file is deleted, the hard link can still access the contents of the original file.<br>原文件删除：当原文件被删除时，软链接和硬链接的行为也不同。软链接只是指向原文件的路径名，当原文件被删除时，软链接将指向一个不存在的文件。而硬链接则是原文件的一个别名，即使原文件被删除，硬链接仍然可以访问原文件的内容，因为它们实际上是同一个文件。</p></li><li><p>Soft link is a special file so it can be read and edited like a normal file. The hard link is just another filename pointing to the original file, so it cannot be read or edited like a soft link.<br>可读性：软链接是一个特殊的文件，所以它可以像普通文件一样被读取和编辑。而硬链接只是指向原文件的另一个文件名，所以它不能像软链接一样被读取或编辑。</p></li></ol><p>今天上课教了linux操作命令，也很水，Student Connect 旁边的布朗尼好吃</p><p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202303060921733.JPG" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img3/202303060921733.JPG" class="lazyload"></a></p>]]></content>
       
       
       <categories>
@@ -120,9 +120,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -147,9 +147,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -174,9 +174,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -540,9 +540,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> php </tag>
+            
+            <tag> ctf </tag>
             
             <tag> code audit </tag>
             
@@ -569,9 +569,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
             <tag> 密码学 </tag>
             
@@ -598,9 +598,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -702,9 +702,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -729,9 +729,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -756,9 +756,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -783,9 +783,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -887,9 +887,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -914,9 +914,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -968,9 +968,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -1330,9 +1330,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -1357,9 +1357,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -1384,9 +1384,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -1436,9 +1436,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
             <tag> code audit </tag>
             
@@ -1492,9 +1492,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -1519,9 +1519,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
@@ -1546,9 +1546,9 @@
       
         <tags>
             
-            <tag> ctf </tag>
-            
             <tag> writeup </tag>
+            
+            <tag> ctf </tag>
             
         </tags>
       
