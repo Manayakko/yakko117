@@ -1298,28 +1298,35 @@
     <title>Use several UML analysis techniques to produce a report</title>
     <url>/yakko117/2023/04/19/Modelling_report_analysis/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="叙述"><a href="#叙述" class="headerlink" title="叙述"></a>叙述</h1><p>基于对任务的理解，给出可能的解决方案，要包含对解决问题的范围，以及客户为解决方案需要提供的任何信息。 </p>
-<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><h2 id="注册和个人简介："><a href="#注册和个人简介：" class="headerlink" title="注册和个人简介："></a>注册和个人简介：</h2><p>每个用户都需要注册，并创建个人简介。用户可以选择填写一些健康和人口统计信息，如年龄、性别、地点、体重和身高，并指定一些健身目标。 </p>
+<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><ol>
+<li>use case digram 用例图 </li>
+<li>use case description 用例描述 </li>
+<li>Domain Class Diagram 领域类图 </li>
+<li>Activity Diagram 活动图 </li>
+<li>System Sequence Diagram 系统时序图</li>
+</ol>
+<h2 id="注册和个人简介"><a href="#注册和个人简介" class="headerlink" title="注册和个人简介"></a>注册和个人简介</h2><p>每个用户都需要注册，并创建个人简介。用户可以选择填写一些健康和人口统计信息，如年龄、性别、地点、体重和身高，并指定一些健身目标。 </p>
 <p>Each user needs to register and create a personal profile. Users can choose to fill in some health and demographic information, such as age, gender, location, weight, and height, and specify some fitness goals. </p>
-<h2 id="健康日记："><a href="#健康日记：" class="headerlink" title="健康日记："></a>健康日记：</h2><p>用户可以在健康日记中记录各种健身活动和测量结果，例如体重、腰围、血压、静息心率等。用户还可以添加基于文本的日记条目，并附加照片或视频。日记条目应该像其他社会媒体网站，如 Facebook 上的帖子。用户也应该能够对彼此的条目进行评论。 </p>
+<h2 id="健康日记"><a href="#健康日记" class="headerlink" title="健康日记"></a>健康日记</h2><p>用户可以在健康日记中记录各种健身活动和测量结果，例如体重、腰围、血压、静息心率等。用户还可以添加基于文本的日记条目，并附加照片或视频。日记条目应该像其他社会媒体网站，如 Facebook 上的帖子。用户也应该能够对彼此的条目进行评论。 </p>
 <p>Users can record various fitness activities and measurement results in their health diary, such as weight, waist circumference, blood pressure, resting heart rate, etc. Users can also add text based journal entries and attach photos or videos. Diary entries should resemble posts on other social media websites, such as Facebook. Users should also be able to comment on each other’s entries. </p>
-<h2 id="手动输入和设备同步："><a href="#手动输入和设备同步：" class="headerlink" title="手动输入和设备同步："></a>手动输入和设备同步：</h2><p>用户可以手动添加一个条目到他们的日记。他们还应该能够编辑或删除他们所做的任何条目。此外，移动应用程序需要接受来自健身设备的数据，并在同步时自动为设备捕获的活动或测量创建日记条目。 </p>
+<h2 id="手动输入和设备同步"><a href="#手动输入和设备同步" class="headerlink" title="手动输入和设备同步"></a>手动输入和设备同步</h2><p>用户可以手动添加一个条目到他们的日记。他们还应该能够编辑或删除他们所做的任何条目。此外，移动应用程序需要接受来自健身设备的数据，并在同步时自动为设备捕获的活动或测量创建日记条目。 </p>
 <p>Users can manually add an entry to their diary. They should also be able to edit or delete any entries they make. In addition, mobile applications need to accept data from fitness devices and automatically create diary entries for activities or measurements captured by the device during synchronization. </p>
-<h2 id="社交："><a href="#社交：" class="headerlink" title="社交："></a>社交：</h2><p>用户可以搜索其他用户并与之建立联系。连接请求需要得到接收请求的用户的批准。连接的用户将在他们的“订阅源”中看到彼此的“日记条目”，允许他们对这些条目发表评论。 </p>
+<h2 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h2><p>用户可以搜索其他用户并与之建立联系。连接请求需要得到接收请求的用户的批准。连接的用户将在他们的“订阅源”中看到彼此的“日记条目”，允许他们对这些条目发表评论。 </p>
 <p>Users can search for other users and establish contact with them. The connection request requires approval from the user receiving the request. Connected users will see each other’s “diary entries” in their “feed”, allowing them to comment on these entries. </p>
-<h2 id="数据分析："><a href="#数据分析：" class="headerlink" title="数据分析："></a>数据分析：</h2><p>用户可以创建报告来跟踪性能和测量结果。移动应用程序支持一系列报告，例如燃烧的卡路里总数，或每周的距离。随着时间的推移，报告可能是用户日记中记录的简单测量，如体重或血压。 </p>
+<h2 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h2><p>用户可以创建报告来跟踪性能和测量结果。移动应用程序支持一系列报告，例如燃烧的卡路里总数，或每周的距离。随着时间的推移，报告可能是用户日记中记录的简单测量，如体重或血压。 </p>
 <p>Users can create reports to track performance and measurement results. The mobile application supports a series of reports, such as the total number of calories burned or the distance per week. Over time, reports may be simple measurements recorded in user diaries, such as weight or blood pressure. </p>
-<h2 id="实施阶段："><a href="#实施阶段：" class="headerlink" title="实施阶段："></a>实施阶段：</h2><p>该公司只考虑开发移动应用程序。尽管这需要与索赔处理系统集成才能反映折扣，但第一阶段的实施却忽视了这些折扣。第二阶段将涵盖整合方面。 </p>
+<h2 id="实施阶段"><a href="#实施阶段" class="headerlink" title="实施阶段"></a>实施阶段</h2><p>该公司只考虑开发移动应用程序。尽管这需要与索赔处理系统集成才能反映折扣，但第一阶段的实施却忽视了这些折扣。第二阶段将涵盖整合方面。 </p>
 <p>The company only considers developing mobile applications. Although this requires integration with the claims processing system to reflect discounts, the implementation of the first phase overlooked these discounts. The second phase will cover the integration aspect. </p>
 <hr>
-<h1 id="用例描述"><a href="#用例描述" class="headerlink" title="用例描述"></a>用例描述</h1><h2 id="Record-Fitness-Activity（记录健身活动）："><a href="#Record-Fitness-Activity（记录健身活动）：" class="headerlink" title="Record Fitness Activity（记录健身活动）："></a>Record Fitness Activity（记录健身活动）：</h2><p>场景：用户在健身后打开应用程序，并选择“记录健身活动”用例。他们选择所进行的活动类型（如跑步、骑自行车、游泳），并输入相关信息（如距离、时间、地点等）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
+<h1 id="用例描述"><a href="#用例描述" class="headerlink" title="用例描述"></a>用例描述</h1><h2 id="Record-Fitness-Activity（记录健身活动）"><a href="#Record-Fitness-Activity（记录健身活动）" class="headerlink" title="Record Fitness Activity（记录健身活动）"></a>Record Fitness Activity（记录健身活动）</h2><p>场景：用户在健身后打开应用程序，并选择“记录健身活动”用例。他们选择所进行的活动类型（如跑步、骑自行车、游泳），并输入相关信息（如距离、时间、地点等）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
 <p>前置条件：用户已经下载并注册了健康生活应用程序，并且具有健身活动可以记录。 </p>
-<h2 id="Record-Health-Measurements（记录健康指标）："><a href="#Record-Health-Measurements（记录健康指标）：" class="headerlink" title="Record Health Measurements（记录健康指标）："></a>Record Health Measurements（记录健康指标）：</h2><p>场景：用户打开应用程序，并选择“记录健康指标”用例。他们选择所记录的指标类型（如体重、血压、静息心率），并输入相关数据（如数值和日期）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
+<h2 id="Record-Health-Measurements（记录健康指标）"><a href="#Record-Health-Measurements（记录健康指标）" class="headerlink" title="Record Health Measurements（记录健康指标）"></a>Record Health Measurements（记录健康指标）</h2><p>场景：用户打开应用程序，并选择“记录健康指标”用例。他们选择所记录的指标类型（如体重、血压、静息心率），并输入相关数据（如数值和日期）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
 <p>前置条件：用户已经下载并注册了健康生活应用程序，并且需要记录某些健康指标。 </p>
-<h2 id="Connect-with-Friends（连接朋友）："><a href="#Connect-with-Friends（连接朋友）：" class="headerlink" title="Connect with Friends（连接朋友）："></a>Connect with Friends（连接朋友）：</h2><p>场景：用户想要与其他健康生活应用程序用户建立联系。他们打开应用程序并选择“连接朋友”用例。用户可以搜索其他用户，并向他们发送连接请求。如果请求被接受，用户可以查看彼此的日记条目，并互相喜欢、评论和分享条目。 </p>
+<h2 id="Connect-with-Friends（连接朋友）"><a href="#Connect-with-Friends（连接朋友）" class="headerlink" title="Connect with Friends（连接朋友）"></a>Connect with Friends（连接朋友）</h2><p>场景：用户想要与其他健康生活应用程序用户建立联系。他们打开应用程序并选择“连接朋友”用例。用户可以搜索其他用户，并向他们发送连接请求。如果请求被接受，用户可以查看彼此的日记条目，并互相喜欢、评论和分享条目。 </p>
 <p>前置条件：用户已经注册并登录到健康生活应用程序，并且想要连接其他用户。 </p>
-<h2 id="View-Progress-and-Reports（查看进展和报告）："><a href="#View-Progress-and-Reports（查看进展和报告）：" class="headerlink" title="View Progress and Reports（查看进展和报告）："></a>View Progress and Reports（查看进展和报告）：</h2><p>场景：用户想要查看他们的进展和生成报告。他们打开应用程序，并选择“查看进展和报告”用例。应用程序将为他们生成有关他们的日记条目、健身活动和健康指标的报告，并允许用户跟踪他们的进展。 </p>
+<h2 id="View-Progress-and-Reports（查看进展和报告）"><a href="#View-Progress-and-Reports（查看进展和报告）" class="headerlink" title="View Progress and Reports（查看进展和报告）"></a>View Progress and Reports（查看进展和报告）</h2><p>场景：用户想要查看他们的进展和生成报告。他们打开应用程序，并选择“查看进展和报告”用例。应用程序将为他们生成有关他们的日记条目、健身活动和健康指标的报告，并允许用户跟踪他们的进展。 </p>
 <p>前置条件：用户已经注册并登录到健康生活应用程序，并且想要查看他们的进展和报告。 </p>
-<h2 id="Healthy-Living-App（健康生活应用程序）："><a href="#Healthy-Living-App（健康生活应用程序）：" class="headerlink" title="Healthy Living App（健康生活应用程序）："></a>Healthy Living App（健康生活应用程序）：</h2><p>场景：用户打开健康生活应用程序，并使用其各种功能。这包括记录健身活动、记录健康指标、连接其他用户、查看进展和报告等。 </p>
+<h2 id="Healthy-Living-App（健康生活应用程序）"><a href="#Healthy-Living-App（健康生活应用程序）" class="headerlink" title="Healthy Living App（健康生活应用程序）"></a>Healthy Living App（健康生活应用程序）</h2><p>场景：用户打开健康生活应用程序，并使用其各种功能。这包括记录健身活动、记录健康指标、连接其他用户、查看进展和报告等。 </p>
 <p>前置条件：用户已经下载并注册了健康生活应用程序，并且想要使用它的各种功能。 </p>
 ]]></content>
       <categories>
@@ -1605,10 +1612,27 @@
 
 <hr>
 <h2 id="week7"><a href="#week7" class="headerlink" title="week7"></a>week7</h2><h3 id="SyntaxError"><a href="#SyntaxError" class="headerlink" title="SyntaxError:"></a>SyntaxError:</h3><p>Errors in the syntax of your program (parsing errors in Python)</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">python</div></div><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> a_number &gt; <span class="number">2</span></span><br><span class="line">    <span class="built_in">print</span>(a_number, “<span class="keyword">is</span> greater than <span class="number">2</span>”)</span><br></pre></td></tr></table></figure></div>
+
 <h3 id="NameError-exception-in-Python"><a href="#NameError-exception-in-Python" class="headerlink" title="NameError: (exception in Python)"></a>NameError: (exception in Python)</h3><p>Attempt to use a variable (or value) before initialising it; attempt to use a module or function without first importing it</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">python</div></div><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a_number = random.random()</span><br></pre></td></tr></table></figure></div>
+
 <h3 id="TypeError-exception-in-Python"><a href="#TypeError-exception-in-Python" class="headerlink" title="TypeError: (exception in Python)"></a>TypeError: (exception in Python)</h3><p>Attempt to use incompatible data types within a single statement; attempt to pass an argument of the wrong type</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">python</div></div><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a_number = <span class="number">3</span></span><br><span class="line"><span class="keyword">if</span> a_number &gt; <span class="number">2</span>:</span><br><span class="line">    <span class="built_in">print</span>(a_number + “<span class="keyword">is</span> greater than <span class="number">2</span>”)</span><br></pre></td></tr></table></figure></div>
+
 <h3 id="ValueError-exception-in-Python"><a href="#ValueError-exception-in-Python" class="headerlink" title="ValueError: (exception in Python)"></a>ValueError: (exception in Python)</h3><p>Attempt to pass an argument with the correct type but with a wrong value</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">python</div></div><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sum_of_two = <span class="built_in">int</span>(‘<span class="number">1</span>’) + <span class="built_in">int</span>(‘b’)</span><br></pre></td></tr></table></figure></div>
+
 <h3 id="RuntimeError-exception-in-Python"><a href="#RuntimeError-exception-in-Python" class="headerlink" title="RuntimeError: (exception in Python)"></a>RuntimeError: (exception in Python)</h3><p>An error detected that doesn’t fall into any of the pre-defined error types</p>
+<h3 id="Exception-Handling-Try-and-Except-and-Else"><a href="#Exception-Handling-Try-and-Except-and-Else" class="headerlink" title="Exception Handling: Try and Except and Else"></a>Exception Handling: Try and Except and Else</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">python</div></div><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>: </span><br><span class="line">    num1 = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;Enter first number: &#x27;</span>))</span><br><span class="line">    num2 = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;Enter second number: &#x27;</span>))</span><br><span class="line">    result = num1 // num2</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Result of division:&#x27;</span>, result)</span><br><span class="line"><span class="keyword">except</span> ValueError:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Invalid input value&#x27;</span>)</span><br><span class="line"><span class="comment">#except ZeroDivisionError:</span></span><br><span class="line"> <span class="comment">#   print(&#x27;Cannot divide by zero&#x27;)</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;else statement run when there is no exception&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>else:<ul>
+<li>Comes after all the except blocks (optional)</li>
+<li>Useful where some code should be executed if the try block does not raise any exception.</li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>Monash笔记</category>
@@ -2509,37 +2533,6 @@
       </tags>
   </entry>
   <entry>
-    <title>linux shell下的特殊用法及参数的说明</title>
-    <url>/yakko117/2019/07/15/linuxshell_study/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="变量说明"><a href="#变量说明" class="headerlink" title="变量说明:"></a>变量说明:</h1><h2 id><a href="#" class="headerlink" title="$$"></a>$$</h2><p>Shell 本身的PID（ProcessID）</p>
-<h2 id="-1"><a href="#-1" class="headerlink" title="$!"></a>$!</h2><p>Shell 最后运行的后台Process的PID </p>
-<h2 id="-2"><a href="#-2" class="headerlink" title="$?"></a>$?</h2><p>最后运行的命令的结束代码（返回值） </p>
-<h2 id="-3"><a href="#-3" class="headerlink" title="$-"></a>$-</h2><p>使用Set命令设定的Flag一览 </p>
-<h2 id="-4"><a href="#-4" class="headerlink" title="$*"></a>$*</h2><p>所有参数列表。如 <code>$*</code> 用<code>[&quot;]</code>括起来的情况，以 <code>&quot;$1 $2 … $n&quot;</code> 的形式输出所有参数。 </p>
-<h2 id="-5"><a href="#-5" class="headerlink" title="$@"></a>$@</h2><p>所有参数列表。如 <code>$@</code> 用<code>[&quot;]</code>括起来的情况，以 <code>&quot;$1&quot;</code> <code>&quot;$2&quot;</code> … <code>&quot;$n&quot;</code> 的形式输出所有参数。</p>
-<hr>
-<h2 id="-6"><a href="#-6" class="headerlink" title="$#"></a><code>$#</code></h2><p>添加到Shell的参数个数 </p>
-<h2 id="0"><a href="#0" class="headerlink" title="$0"></a>$0</h2><p>Shell本身的文件名 </p>
-<h2 id="以及-1-n"><a href="#以及-1-n" class="headerlink" title="以及 $1 $n"></a>以及 <code>$1</code> <code>$n</code></h2><p>添加到Shell的各参数值。<code>$1</code>是第1参数，<code>$2</code>是第2参数</p>
-<hr>
-<h1 id="举个例子"><a href="#举个例子" class="headerlink" title="举个例子"></a>举个例子</h1><p>写个简单的例子，执行以后再来解释各个变量的意义</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">plaintext</div></div><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">leafpad yakko_test</span><br></pre></td></tr></table></figure></div>
-
-<p>脚本内容如下</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">shell</div></div><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/bin/sh</span> </span><br><span class="line">echo &quot;number:$#&quot; </span><br><span class="line">echo &quot;scname:$0&quot; </span><br><span class="line">echo &quot;first :$1&quot; </span><br><span class="line">echo &quot;second:$2&quot; </span><br><span class="line">echo &quot;argume:$@&quot; </span><br></pre></td></tr></table></figure></div>
-
-<p>保存退出，赋予权限</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">shell</div></div><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">chmod +x yakko_test</span><br><span class="line"></span><br><span class="line">// 执行脚本</span><br><span class="line">./yakko_test aa bb </span><br><span class="line"></span><br><span class="line">// 回显得到</span><br><span class="line">number:2 </span><br><span class="line">scname:./yakko_test</span><br><span class="line">first: aa </span><br><span class="line">second:bb </span><br><span class="line">argume:aa bb</span><br></pre></td></tr></table></figure></div>
-<p>通过显示结果可以看到：<br><code>$#</code> 是传给脚本的参数个数<br><code>$0</code> 是脚本本身的名字<br><code>$1</code> 是传递给该shell脚本的第一个参数<br><code>$2</code> 是传递给该shell脚本的第二个参数<br><code>$@</code> 是传给脚本的所有参数的列表</p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>瞎扯</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>LeetCode Python学习笔记(一)</title>
     <url>/yakko117/2019/07/11/leetcode1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="算法篇"><a href="#算法篇" class="headerlink" title="算法篇"></a>算法篇</h1><h2 id="两数之和"><a href="#两数之和" class="headerlink" title="两数之和"></a>两数之和</h2><p>给定一个整数数组 <code>nums</code> 和一个目标值 <code>target</code>，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。</p>
@@ -2576,6 +2569,37 @@
       <tags>
         <tag>LeetCode</tag>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux shell下的特殊用法及参数的说明</title>
+    <url>/yakko117/2019/07/15/linuxshell_study/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="变量说明"><a href="#变量说明" class="headerlink" title="变量说明:"></a>变量说明:</h1><h2 id><a href="#" class="headerlink" title="$$"></a>$$</h2><p>Shell 本身的PID（ProcessID）</p>
+<h2 id="-1"><a href="#-1" class="headerlink" title="$!"></a>$!</h2><p>Shell 最后运行的后台Process的PID </p>
+<h2 id="-2"><a href="#-2" class="headerlink" title="$?"></a>$?</h2><p>最后运行的命令的结束代码（返回值） </p>
+<h2 id="-3"><a href="#-3" class="headerlink" title="$-"></a>$-</h2><p>使用Set命令设定的Flag一览 </p>
+<h2 id="-4"><a href="#-4" class="headerlink" title="$*"></a>$*</h2><p>所有参数列表。如 <code>$*</code> 用<code>[&quot;]</code>括起来的情况，以 <code>&quot;$1 $2 … $n&quot;</code> 的形式输出所有参数。 </p>
+<h2 id="-5"><a href="#-5" class="headerlink" title="$@"></a>$@</h2><p>所有参数列表。如 <code>$@</code> 用<code>[&quot;]</code>括起来的情况，以 <code>&quot;$1&quot;</code> <code>&quot;$2&quot;</code> … <code>&quot;$n&quot;</code> 的形式输出所有参数。</p>
+<hr>
+<h2 id="-6"><a href="#-6" class="headerlink" title="$#"></a><code>$#</code></h2><p>添加到Shell的参数个数 </p>
+<h2 id="0"><a href="#0" class="headerlink" title="$0"></a>$0</h2><p>Shell本身的文件名 </p>
+<h2 id="以及-1-n"><a href="#以及-1-n" class="headerlink" title="以及 $1 $n"></a>以及 <code>$1</code> <code>$n</code></h2><p>添加到Shell的各参数值。<code>$1</code>是第1参数，<code>$2</code>是第2参数</p>
+<hr>
+<h1 id="举个例子"><a href="#举个例子" class="headerlink" title="举个例子"></a>举个例子</h1><p>写个简单的例子，执行以后再来解释各个变量的意义</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">plaintext</div></div><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">leafpad yakko_test</span><br></pre></td></tr></table></figure></div>
+
+<p>脚本内容如下</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">shell</div></div><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/bin/sh</span> </span><br><span class="line">echo &quot;number:$#&quot; </span><br><span class="line">echo &quot;scname:$0&quot; </span><br><span class="line">echo &quot;first :$1&quot; </span><br><span class="line">echo &quot;second:$2&quot; </span><br><span class="line">echo &quot;argume:$@&quot; </span><br></pre></td></tr></table></figure></div>
+
+<p>保存退出，赋予权限</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">shell</div></div><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">chmod +x yakko_test</span><br><span class="line"></span><br><span class="line">// 执行脚本</span><br><span class="line">./yakko_test aa bb </span><br><span class="line"></span><br><span class="line">// 回显得到</span><br><span class="line">number:2 </span><br><span class="line">scname:./yakko_test</span><br><span class="line">first: aa </span><br><span class="line">second:bb </span><br><span class="line">argume:aa bb</span><br></pre></td></tr></table></figure></div>
+<p>通过显示结果可以看到：<br><code>$#</code> 是传给脚本的参数个数<br><code>$0</code> 是脚本本身的名字<br><code>$1</code> 是传递给该shell脚本的第一个参数<br><code>$2</code> 是传递给该shell脚本的第二个参数<br><code>$@</code> 是传给脚本的所有参数的列表</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>瞎扯</tag>
       </tags>
   </entry>
   <entry>
@@ -2974,6 +2998,36 @@
       </tags>
   </entry>
   <entry>
+    <title>你看他身上插满的flag像不像个唱戏的老将军</title>
+    <url>/yakko117/2019/02/04/%E4%BD%A0%E7%9C%8B%E4%BB%96%E8%BA%AB%E4%B8%8A%E6%8F%92%E6%BB%A1%E7%9A%84flag%E5%83%8F%E4%B8%8D%E5%83%8F%E4%B8%AA%E5%94%B1%E6%88%8F%E7%9A%84%E8%80%81%E5%B0%86%E5%86%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="18年的狗砸"><a href="#18年的狗砸" class="headerlink" title="18年的狗砸"></a>18年的狗砸</h1><p>打算转网安还是暑假的时候，忙碌的大一时光眨眼就过去，自己处于一种迷茫且不知道如何前进的状态，在无数个十字路口前举步不前时，感谢我姐，陪我聊了许多，也让我有了一个新的目标和方向，让我从咸鱼王变成了另一个方向的咸鱼&gt;w&lt;；这一年我很幸运遇到了很多很多很多很多帮助过我的人，无论是曾经的新媒体的朋友，或是网络中心的老师、学长还是那群嚷嚷着要“投湖”的基友，真的很感谢你们对我的包容和照顾,使我从初入大学一脸懵的萌新，变成能在群里看dalao操作的死咸鱼。（雾</p>
+<hr>
+<blockquote>
+<p>要想真正进入一个圈子，首先自己要成为那样的人。 要想过好这一生，自己就要努力成为一个厉害的人。 人脉不是你认识多少人而是有多少人想认识你。不执念于虚名，不迷恋于人脉，不着急于一步登天，踏踏实实耕耘自己的人生。<br><strong>毕竟，这是一个信仰实力的时代</strong>！</p>
+</blockquote>
+<h2 id="flag最多的一年"><a href="#flag最多的一年" class="headerlink" title="flag最多的一年"></a>flag最多的一年</h2><p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lblyhj31400u078z.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lblyhj31400u078z.jpg" class="lazyload"></a></p>
+<hr>
+<p><strong>“我一定要把博客搭好！”</strong>这句喊了一年的话，终于在寒假实现了，从十月第一次听说ctf，到现在慢慢开始记录<code>write up</code>（虽然还没有放上来233）、开始以龟速划水前行，<strong>成长</strong>这条道路,我才刚刚开始上路。</p>
+<p>今年陆陆续续打了几场比赛，也躺了个奖（自己是真的菜），基本上在比赛时自己就是一脸懵的看着题目和感慨大佬神乎其神的操作，但也因此认识了各地的师傅，也激发起自己学习的动力，明确了目标。记得前几天还说，要在过年前记录php序列化的学习过程，在网上看了许多dalao的博客总结后，结果到今天，自己才<strong>可耻</strong>的写下了一个title<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lan0rj30u0139gqf.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lan0rj30u0139gqf.jpg" class="lazyload"></a> width&#x3D;”20%” height&#x3D;”20%”&gt;<br>尽量过几天赶出来吧，大年初一、初二要出去拜年，争取在初六和朋友们出去玩之前写一部分吧。</p>
+<hr>
+<h2 id="19年的flag"><a href="#19年的flag" class="headerlink" title="19年的flag"></a>19年的flag</h2><ul>
+<li>坚持学习，坚持把学习成果记录总结</li>
+<li>多写代码，自己学会写漏洞环境，学习代码审计</li>
+<li>除了web方向，开始学习RE</li>
+<li>注意身体，少熬夜</li>
+<li>努力向XCTF发起挑战</li>
+</ul>
+<hr>
+<p>好了，就这样吧，配家里人看春晚去了</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>瞎扯</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>命令注入绕过姿势</title>
     <url>/yakko117/2019/04/07/%E5%91%BD%E4%BB%A4%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87%E5%A7%BF%E5%8A%BF/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>参考文章如下<br><a href="https://www.smi1e.top/%E5%91%BD%E4%BB%A4%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87%E5%A7%BF%E5%8A%BF/">微笑师傅</a><br><a href="https://mp.weixin.qq.com/s/Hm6TiLHiAygrJr-MGRq9Mw">Zedd师傅</a></p>
@@ -3022,36 +3076,6 @@
 <h3 id="利用已有资源与字符-最后一部分没怎么搞懂"><a href="#利用已有资源与字符-最后一部分没怎么搞懂" class="headerlink" title="利用已有资源与字符(最后一部分没怎么搞懂)"></a>利用已有资源与字符(最后一部分没怎么搞懂)</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">plaintext</div></div><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ echo $PATH</span><br><span class="line">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</span><br><span class="line">$ echo $PATH|cut -c 1</span><br><span class="line">/</span><br><span class="line">$ cat .`echo $PATH|cut -c 1`flag</span><br><span class="line">flag&#123;yakko_kawaii&#125;</span><br><span class="line"></span><br><span class="line"># 以下没怎么搞懂 我还要测一下</span><br><span class="line">$&#123;PS2&#125; 对应字符 &gt;</span><br><span class="line">$&#123;PS4&#125; 对应字符 + </span><br><span class="line">$&#123;IFS&#125; 对应 内部字段分隔符 </span><br><span class="line">$&#123;9&#125; 对应 空字符串</span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
         <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>瞎扯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>你看他身上插满的flag像不像个唱戏的老将军</title>
-    <url>/yakko117/2019/02/04/%E4%BD%A0%E7%9C%8B%E4%BB%96%E8%BA%AB%E4%B8%8A%E6%8F%92%E6%BB%A1%E7%9A%84flag%E5%83%8F%E4%B8%8D%E5%83%8F%E4%B8%AA%E5%94%B1%E6%88%8F%E7%9A%84%E8%80%81%E5%B0%86%E5%86%9B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="18年的狗砸"><a href="#18年的狗砸" class="headerlink" title="18年的狗砸"></a>18年的狗砸</h1><p>打算转网安还是暑假的时候，忙碌的大一时光眨眼就过去，自己处于一种迷茫且不知道如何前进的状态，在无数个十字路口前举步不前时，感谢我姐，陪我聊了许多，也让我有了一个新的目标和方向，让我从咸鱼王变成了另一个方向的咸鱼&gt;w&lt;；这一年我很幸运遇到了很多很多很多很多帮助过我的人，无论是曾经的新媒体的朋友，或是网络中心的老师、学长还是那群嚷嚷着要“投湖”的基友，真的很感谢你们对我的包容和照顾,使我从初入大学一脸懵的萌新，变成能在群里看dalao操作的死咸鱼。（雾</p>
-<hr>
-<blockquote>
-<p>要想真正进入一个圈子，首先自己要成为那样的人。 要想过好这一生，自己就要努力成为一个厉害的人。 人脉不是你认识多少人而是有多少人想认识你。不执念于虚名，不迷恋于人脉，不着急于一步登天，踏踏实实耕耘自己的人生。<br><strong>毕竟，这是一个信仰实力的时代</strong>！</p>
-</blockquote>
-<h2 id="flag最多的一年"><a href="#flag最多的一年" class="headerlink" title="flag最多的一年"></a>flag最多的一年</h2><p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lblyhj31400u078z.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lblyhj31400u078z.jpg" class="lazyload"></a></p>
-<hr>
-<p><strong>“我一定要把博客搭好！”</strong>这句喊了一年的话，终于在寒假实现了，从十月第一次听说ctf，到现在慢慢开始记录<code>write up</code>（虽然还没有放上来233）、开始以龟速划水前行，<strong>成长</strong>这条道路,我才刚刚开始上路。</p>
-<p>今年陆陆续续打了几场比赛，也躺了个奖（自己是真的菜），基本上在比赛时自己就是一脸懵的看着题目和感慨大佬神乎其神的操作，但也因此认识了各地的师傅，也激发起自己学习的动力，明确了目标。记得前几天还说，要在过年前记录php序列化的学习过程，在网上看了许多dalao的博客总结后，结果到今天，自己才<strong>可耻</strong>的写下了一个title<br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lan0rj30u0139gqf.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/0077TIyQly1g0oo5lan0rj30u0139gqf.jpg" class="lazyload"></a> width&#x3D;”20%” height&#x3D;”20%”&gt;<br>尽量过几天赶出来吧，大年初一、初二要出去拜年，争取在初六和朋友们出去玩之前写一部分吧。</p>
-<hr>
-<h2 id="19年的flag"><a href="#19年的flag" class="headerlink" title="19年的flag"></a>19年的flag</h2><ul>
-<li>坚持学习，坚持把学习成果记录总结</li>
-<li>多写代码，自己学会写漏洞环境，学习代码审计</li>
-<li>除了web方向，开始学习RE</li>
-<li>注意身体，少熬夜</li>
-<li>努力向XCTF发起挑战</li>
-</ul>
-<hr>
-<p>好了，就这样吧，配家里人看春晚去了</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
       </categories>
       <tags>
         <tag>瞎扯</tag>
@@ -3274,6 +3298,45 @@
       </tags>
   </entry>
   <entry>
+    <title>无数字字母绕过 Bypass</title>
+    <url>/yakko117/2020/04/16/%E6%97%A0%E6%95%B0%E5%AD%97%E5%AD%97%E6%AF%8D%E7%BB%95%E8%BF%87webshell/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>很久以前做过安恒的题，最近遇到个差不多，来记录一下学习笔记<br>利用思路提出来自P神<a href="https://www.leavesongs.com/penetration/webshell-without-alphanum.html">一些不包含数字和字母的 webshell</a></p>
+<h1 id="漏洞核心"><a href="#漏洞核心" class="headerlink" title="漏洞核心"></a>漏洞核心</h1><ul>
+<li>异或绕过 Bypass</li>
+<li>取反绕过</li>
+<li>不用数字构造出数字( 弱类型 <code>true 值为 1</code> -&gt; <code>true + true == 2</code> )</li>
+</ul>
+<h1 id="安恒的题型和变种"><a href="#安恒的题型和变种" class="headerlink" title="安恒的题型和变种"></a>安恒的题型和变种</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$code</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>];</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">strlen</span>(<span class="variable">$code</span>)&gt;<span class="number">40</span>)&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;Long.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&quot;/[A-Za-z0-9]+/&quot;</span>,<span class="variable">$code</span>))&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;NO.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    @<span class="keyword">eval</span>(<span class="variable">$code</span>);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//$hint =  &quot;php function getFlag() to get flag&quot;;</span></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$code</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>];</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">strlen</span>(<span class="variable">$code</span>)&gt;<span class="number">35</span>)&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;Long.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&quot;/[A-Za-z0-9_$]+/&quot;</span>,<span class="variable">$code</span>))&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;NO.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    @<span class="keyword">eval</span>(<span class="variable">$code</span>);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//$hint =  &quot;php function getFlag() to get flag&quot;;</span></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>具体参看 <a href="https://www.freebuf.com/articles/web/186298.html">P神的文章</a><br>以及 <a href="https://www.smi1e.top/php%e4%b8%8d%e4%bd%bf%e7%94%a8%e6%95%b0%e5%ad%97%e5%ad%97%e6%af%8d%e5%92%8c%e4%b8%8b%e5%88%92%e7%ba%bf%e5%86%99shell/">微笑师傅的衍生操作</a></p>
+<h1 id="ISITDTU-CTF-2019-EasyPHP"><a href="#ISITDTU-CTF-2019-EasyPHP" class="headerlink" title="ISITDTU CTF 2019 EasyPHP"></a>ISITDTU CTF 2019 EasyPHP</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable">$_</span> = @<span class="variable">$_GET</span>[<span class="string">&#x27;_&#x27;</span>];</span><br><span class="line"><span class="keyword">if</span> ( <span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[\x00- 0-9\&#x27;&quot;`$&amp;.,|[&#123;_defgops\x7F]+/i&#x27;</span>, <span class="variable">$_</span>) )</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;rosé will not do it&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> ( <span class="title function_ invoke__">strlen</span>(<span class="title function_ invoke__">count_chars</span>(<span class="title function_ invoke__">strtolower</span>(<span class="variable">$_</span>), <span class="number">0x3</span>)) &gt; <span class="number">0xd</span> )</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;you are so close, omg&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">eval</span>(<span class="variable">$_</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>有点类似以前写的国赛的 <a href="https://www.suk1.top/2019/05/16/love_math/">love_math</a></p>
+<p>正则匹配了一些字母和数字还有一些特殊符号。 具体调试正则 这里有个<a href="https://regex101.com/">工具网站</a></p>
+<p>正则的意思是匹配 <code>\x00</code> 到 <code>空格(\x20)</code> 的字符， <code>0到9</code> 的数字、<code>&quot;$&amp;.,|[&#123;_defgops</code> 以及 <code>DEL（\x7f）</code> 字符。如果你提交的字符串出现上述字符，die。</p>
+<p>第二个<code>strlen(count_chars(strtolower($_), 0x3)) &gt; 0xd</code><br>表示我们提交的字符串一共不能出现多于 <strong>13种不同的字符</strong>。</p>
+<p>允许出现的字符如下：<code>!#%()*+-/:;&lt;=&gt;?</code><br><code>@ABCHIJKLMNQRTUVWXYZ\]^abchijklmnqrtuvwxyz&#125;~</code></p>
+<h2 id="test-php"><a href="#test-php" class="headerlink" title="test.php"></a>test.php</h2><p>看一下内置函数还有哪些能用</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$array</span>=<span class="title function_ invoke__">get_defined_functions</span>();</span><br><span class="line"><span class="keyword">foreach</span>(<span class="variable">$array</span>[<span class="string">&#x27;internal&#x27;</span>] <span class="keyword">as</span> <span class="variable">$arr</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span> ( <span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[\x00- 0-9\&#x27;&quot;\`$&amp;.,|[&#123;_defgops\x7F]+/i&#x27;</span>, <span class="variable">$arr</span>) ) <span class="keyword">continue</span>;</span><br><span class="line">    <span class="keyword">if</span> ( <span class="title function_ invoke__">strlen</span>(<span class="title function_ invoke__">count_chars</span>(<span class="title function_ invoke__">strtolower</span>(<span class="variable">$arr</span>), <span class="number">0x3</span>)) &gt; <span class="number">0xd</span> ) <span class="keyword">continue</span>;</span><br><span class="line">    <span class="keyword">print</span>(<span class="variable">$arr</span>.<span class="string">&#x27;&lt;br/&gt;&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line"></span><br><span class="line">bcmul, rtrim, trim, ltrim</span><br><span class="line">chr, link, unlink, tan</span><br><span class="line">atan, atanh, tanh, intval</span><br><span class="line">mail, min, max</span><br></pre></td></tr></table></figure></div>
+
+<p>虽然引号都被过滤了，但是PHP默认会把没有加引号的字符串当成常量处理，找不到对应常量就会将其解释成字符串，因此没有引号不是限制。</p>
+<p>而且PHP调用函数，可以使用字符串调用。这个在当初 <a href="https://www.suk1.top/2020/02/05/GXY%E5%A5%97%E5%A8%83/">GXY禁止套娃</a> 有提到过</p>
+<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/limit_webshell_1.png" data-fancybox="group" data-caption="limit_webshell_1" class="fancybox"><img alt="limit_webshell_1" title="limit_webshell_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/limit_webshell_1.png" class="lazyload"></a></p>
+<p>注意到 <code>^</code> 符号没有被过滤，那么我们就可以通过对字符串进行运算来规避if了。</p>
+<p>后面就是常规的异或解题</p>
+<h2 id="相关的参考"><a href="#相关的参考" class="headerlink" title="相关的参考"></a>相关的参考</h2><p><a href="https://tiaonmmn.github.io/2019/07/18/ISITDTU-Easy-PHP/">Tiaonmmn.ZMZ官方wp</a><br><a href="https://www.cnblogs.com/BOHB-yunying/p/11520031.html">PHP代码审计，无字母数字webshell</a></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>瞎扯</tag>
+        <tag>code audit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>从一道题了解模式修正符</title>
     <url>/yakko117/2019/12/28/%E6%A8%A1%E5%BC%8F%E4%BF%AE%E6%AD%A3%E7%AC%A6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> </span><br><span class="line"><span class="variable">$num</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;num&#x27;</span>]; </span><br><span class="line"><span class="variable">$str</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;str&#x27;</span>]; </span><br><span class="line"><span class="keyword">if</span> (<span class="keyword">isset</span>(<span class="variable">$num</span>)&amp;&amp;<span class="keyword">isset</span>(<span class="variable">$str</span>)) &#123; </span><br><span class="line">    <span class="keyword">if</span> (<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/\d+/sD&#x27;</span>,<span class="variable">$str</span>)) &#123; </span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;You play CTF like CXK!&quot;</span>; </span><br><span class="line">        <span class="keyword">exit</span>(); </span><br><span class="line">    &#125; </span><br><span class="line">    <span class="variable">$result</span>=<span class="title function_ invoke__">is_numeric</span>(<span class="variable">$num</span>) <span class="keyword">and</span> <span class="title function_ invoke__">is_numeric</span>(<span class="variable">$str</span>);</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$result</span>) &#123; </span><br><span class="line">        <span class="keyword">include</span> <span class="string">&quot;flag.php&quot;</span>; </span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;<span class="subst">$flag</span>&quot;</span>; </span><br><span class="line">    &#125; </span><br><span class="line">    <span class="keyword">else</span>&#123; </span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;Just because you&#x27;re beautiful!&quot;</span>; </span><br><span class="line">    &#125; </span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>); </span><br><span class="line">&#125; </span><br><span class="line"><span class="meta">?&gt;</span>You play CTF like CXK!</span><br></pre></td></tr></table></figure></div>
@@ -3331,45 +3394,6 @@
       <tags>
         <tag>writeup</tag>
         <tag>ctf</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无数字字母绕过 Bypass</title>
-    <url>/yakko117/2020/04/16/%E6%97%A0%E6%95%B0%E5%AD%97%E5%AD%97%E6%AF%8D%E7%BB%95%E8%BF%87webshell/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p>很久以前做过安恒的题，最近遇到个差不多，来记录一下学习笔记<br>利用思路提出来自P神<a href="https://www.leavesongs.com/penetration/webshell-without-alphanum.html">一些不包含数字和字母的 webshell</a></p>
-<h1 id="漏洞核心"><a href="#漏洞核心" class="headerlink" title="漏洞核心"></a>漏洞核心</h1><ul>
-<li>异或绕过 Bypass</li>
-<li>取反绕过</li>
-<li>不用数字构造出数字( 弱类型 <code>true 值为 1</code> -&gt; <code>true + true == 2</code> )</li>
-</ul>
-<h1 id="安恒的题型和变种"><a href="#安恒的题型和变种" class="headerlink" title="安恒的题型和变种"></a>安恒的题型和变种</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$code</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>];</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">strlen</span>(<span class="variable">$code</span>)&gt;<span class="number">40</span>)&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;Long.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&quot;/[A-Za-z0-9]+/&quot;</span>,<span class="variable">$code</span>))&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;NO.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    @<span class="keyword">eval</span>(<span class="variable">$code</span>);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//$hint =  &quot;php function getFlag() to get flag&quot;;</span></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$code</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;code&#x27;</span>];</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">strlen</span>(<span class="variable">$code</span>)&gt;<span class="number">35</span>)&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;Long.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&quot;/[A-Za-z0-9_$]+/&quot;</span>,<span class="variable">$code</span>))&#123;</span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&quot;NO.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    @<span class="keyword">eval</span>(<span class="variable">$code</span>);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//$hint =  &quot;php function getFlag() to get flag&quot;;</span></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>具体参看 <a href="https://www.freebuf.com/articles/web/186298.html">P神的文章</a><br>以及 <a href="https://www.smi1e.top/php%e4%b8%8d%e4%bd%bf%e7%94%a8%e6%95%b0%e5%ad%97%e5%ad%97%e6%af%8d%e5%92%8c%e4%b8%8b%e5%88%92%e7%ba%bf%e5%86%99shell/">微笑师傅的衍生操作</a></p>
-<h1 id="ISITDTU-CTF-2019-EasyPHP"><a href="#ISITDTU-CTF-2019-EasyPHP" class="headerlink" title="ISITDTU CTF 2019 EasyPHP"></a>ISITDTU CTF 2019 EasyPHP</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable">$_</span> = @<span class="variable">$_GET</span>[<span class="string">&#x27;_&#x27;</span>];</span><br><span class="line"><span class="keyword">if</span> ( <span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[\x00- 0-9\&#x27;&quot;`$&amp;.,|[&#123;_defgops\x7F]+/i&#x27;</span>, <span class="variable">$_</span>) )</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;rosé will not do it&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> ( <span class="title function_ invoke__">strlen</span>(<span class="title function_ invoke__">count_chars</span>(<span class="title function_ invoke__">strtolower</span>(<span class="variable">$_</span>), <span class="number">0x3</span>)) &gt; <span class="number">0xd</span> )</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;you are so close, omg&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">eval</span>(<span class="variable">$_</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>有点类似以前写的国赛的 <a href="https://www.suk1.top/2019/05/16/love_math/">love_math</a></p>
-<p>正则匹配了一些字母和数字还有一些特殊符号。 具体调试正则 这里有个<a href="https://regex101.com/">工具网站</a></p>
-<p>正则的意思是匹配 <code>\x00</code> 到 <code>空格(\x20)</code> 的字符， <code>0到9</code> 的数字、<code>&quot;$&amp;.,|[&#123;_defgops</code> 以及 <code>DEL（\x7f）</code> 字符。如果你提交的字符串出现上述字符，die。</p>
-<p>第二个<code>strlen(count_chars(strtolower($_), 0x3)) &gt; 0xd</code><br>表示我们提交的字符串一共不能出现多于 <strong>13种不同的字符</strong>。</p>
-<p>允许出现的字符如下：<code>!#%()*+-/:;&lt;=&gt;?</code><br><code>@ABCHIJKLMNQRTUVWXYZ\]^abchijklmnqrtuvwxyz&#125;~</code></p>
-<h2 id="test-php"><a href="#test-php" class="headerlink" title="test.php"></a>test.php</h2><p>看一下内置函数还有哪些能用</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$array</span>=<span class="title function_ invoke__">get_defined_functions</span>();</span><br><span class="line"><span class="keyword">foreach</span>(<span class="variable">$array</span>[<span class="string">&#x27;internal&#x27;</span>] <span class="keyword">as</span> <span class="variable">$arr</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span> ( <span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[\x00- 0-9\&#x27;&quot;\`$&amp;.,|[&#123;_defgops\x7F]+/i&#x27;</span>, <span class="variable">$arr</span>) ) <span class="keyword">continue</span>;</span><br><span class="line">    <span class="keyword">if</span> ( <span class="title function_ invoke__">strlen</span>(<span class="title function_ invoke__">count_chars</span>(<span class="title function_ invoke__">strtolower</span>(<span class="variable">$arr</span>), <span class="number">0x3</span>)) &gt; <span class="number">0xd</span> ) <span class="keyword">continue</span>;</span><br><span class="line">    <span class="keyword">print</span>(<span class="variable">$arr</span>.<span class="string">&#x27;&lt;br/&gt;&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line"></span><br><span class="line">bcmul, rtrim, trim, ltrim</span><br><span class="line">chr, link, unlink, tan</span><br><span class="line">atan, atanh, tanh, intval</span><br><span class="line">mail, min, max</span><br></pre></td></tr></table></figure></div>
-
-<p>虽然引号都被过滤了，但是PHP默认会把没有加引号的字符串当成常量处理，找不到对应常量就会将其解释成字符串，因此没有引号不是限制。</p>
-<p>而且PHP调用函数，可以使用字符串调用。这个在当初 <a href="https://www.suk1.top/2020/02/05/GXY%E5%A5%97%E5%A8%83/">GXY禁止套娃</a> 有提到过</p>
-<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/limit_webshell_1.png" data-fancybox="group" data-caption="limit_webshell_1" class="fancybox"><img alt="limit_webshell_1" title="limit_webshell_1" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img2/limit_webshell_1.png" class="lazyload"></a></p>
-<p>注意到 <code>^</code> 符号没有被过滤，那么我们就可以通过对字符串进行运算来规避if了。</p>
-<p>后面就是常规的异或解题</p>
-<h2 id="相关的参考"><a href="#相关的参考" class="headerlink" title="相关的参考"></a>相关的参考</h2><p><a href="https://tiaonmmn.github.io/2019/07/18/ISITDTU-Easy-PHP/">Tiaonmmn.ZMZ官方wp</a><br><a href="https://www.cnblogs.com/BOHB-yunying/p/11520031.html">PHP代码审计，无字母数字webshell</a></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>瞎扯</tag>
-        <tag>code audit</tag>
       </tags>
   </entry>
   <entry>
