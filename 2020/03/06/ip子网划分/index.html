@@ -80,7 +80,7 @@ function activateLightMode(){
 </ul>
 <p>IP地址资源越来越少，WAN链路比LAN链路的速度慢得多，且更昂贵;如果纯粹用大跨度的大型网络，进行流量数据交互，利用率不高。<br>因此为实现更小的广播域 <code>(提高系统效率)</code>，就需要进一步分成更小的网络。划分子网后，通过使用掩码，把子网隐藏起来，使得从外部看网络没有变化，这就是子网掩码。</p>
 <p>当某个单位划分子网后，对外仍然 <code>表现为一个网络</code> ，除本单位之外的网络看不见本单位的子网划分。</p>
-<h2 id="子网分类"><a href="#子网分类" class="headerlink" title="子网分类"></a>子网分类</h2><p>划分子网时，随着子网地址借用主机位数的增多，子网的数目随之增加，但每个子网中的可用主机数逐渐减少。<br>如 <code>C类地址</code>，原有8位主机位，$2^8$-2即254个主机地址，默认子网掩码255.255.255.0。(全0或全1不可用）<br>借用1位主机位，产生$2^1$&#x3D;2个子网，每个子网有$2^7$个主机地址;<br>借用2位主机位，产生$2^2$&#x3D;4个子网，每个子网有$2^6$个主机地址;<br>…<br>具体如下图<br><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fwftij318d0iddi8.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fwftij318d0iddi8.jpg" class="lazyload"></a></p>
+<h2 id="子网分类"><a href="#子网分类" class="headerlink" title="子网分类"></a>子网分类</h2><p>划分子网时，随着子网地址借用主机位数的增多，子网的数目随之增加，但每个子网中的可用主机数逐渐减少。<br>如 <code>C类地址</code>，原有8位主机位，$2^8$-2即254个主机地址，默认子网掩码255.255.255.0。(全0或全1不可用）<br>借用1位主机位，产生$2^1$&#x3D;2个子网，每个子网有$2^7$个主机地址;<br>借用2位主机位，产生$2^2$&#x3D;4个子网，每个子网有$2^6$个主机地址;<br>…<br>具体如下图<br><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fwftij318d0iddi8.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fwftij318d0iddi8.jpg" class="lazyload" title="test"></a></p>
 <h2 id="明确子网划分的需求"><a href="#明确子网划分的需求" class="headerlink" title="明确子网划分的需求"></a>明确子网划分的需求</h2><ul>
 <li><p>确定需要的网络ID数:</p>
 <ul>
@@ -108,7 +108,7 @@ function activateLightMode(){
 <li>子网掩码可以通过与 <code>IP地址&quot;与&quot;计算</code>，分离出IP地址中的网络地址和主机地址，用于判断该IP地址是在局域网上，还是在广域网上。</li>
 <li>子网掩码一般用于将网络进一步划分为若干子网，以避免主机过多而拥堵或过少而IP浪费。(上面也提到了)</li>
 </ol>
-<p><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fv8ckj30pf0fy75p.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fv8ckj30pf0fy75p.jpg" class="lazyload"></a></p>
+<p><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fv8ckj30pf0fy75p.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1gcmq2fv8ckj30pf0fy75p.jpg" class="lazyload" title="test"></a></p>
 <h2 id="为什么要使用子网掩码"><a href="#为什么要使用子网掩码" class="headerlink" title="为什么要使用子网掩码"></a>为什么要使用子网掩码</h2><p>子网掩码可以分离出IP地址中的网络地址和主机地址，那为什么要分离呢？因为两台计算机要通讯，首先要判断是否处于同一个广播域内，即网络地址是否相同。如果网络地址相同，表明接受方在本网络上，那么可以把数据包直接发送到目标主机，<font color="6495ED">否则就需要路由网关将数据包转发送到目的地。</font></p>
 <hr>
 <h2 id="子网掩码的分类"><a href="#子网掩码的分类" class="headerlink" title="子网掩码的分类"></a>子网掩码的分类</h2><h3 id="缺省子网掩码："><a href="#缺省子网掩码：" class="headerlink" title="缺省子网掩码："></a>缺省子网掩码：</h3><p>(未划分子网)<br>子网掩码32位与IP地址32位对应,如果某位是网络地址，则子网掩码为1，否则为0。<br>例如A类IP地址，第一节为网络地址，其余三节为主机地址<br>故掩码为<code>11111111.00000000.00000000.00000000</code></p>
