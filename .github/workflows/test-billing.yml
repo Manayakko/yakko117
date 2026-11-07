@@ -1,0 +1,10 @@
+name: Test Billing Status
+on:
+  workflow_dispatch: # 这行是关键，它启用了手动触发按钮
+
+jobs:
+  test-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo test message
+        run: echo "GitHub Actions is working!"
